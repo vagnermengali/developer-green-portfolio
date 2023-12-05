@@ -20,19 +20,21 @@ export const aboutData = [
             {
                 title: "Desenvolvimento Web",
                 icons: [
-                    <FaHtml5 />,
-                    <FaCss3 />,
-                    <FaSass />,
-                    <FaJs />,
-                    <FaReact />,
-                    <SiNextdotjs />,
-                    <SiFramer />,
-
+                    <FaHtml5 key="html5" />,
+                    <FaCss3 key="css3" />,
+                    <FaSass key="sass" />,
+                    <FaJs key="js" />,
+                    <FaReact key="react" />,
+                    <SiNextdotjs key="nextjs" />,
+                    <SiFramer key="framer" />
                 ],
             },
             {
                 title: "UI/UX Design",
-                icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+                icons: [
+                    <FaFigma key="figma" />,
+                    <SiAdobexd key="adobexd" />,
+                    <SiAdobephotoshop key="adobephotoshop" />,],
             },
         ],
     },
