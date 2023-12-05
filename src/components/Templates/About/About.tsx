@@ -7,9 +7,11 @@ import Avatar from "@/components/Other/Avatar/Avatar";
 import PaintTree from "@/components/Other/Paints/PaintTree/PaintTree";
 
 import { aboutData } from "@/data/about";
+import { AboutData, AboutInfo } from "@/interfaces/AboutInterface";
 
 const About = () => {
   const [index, setIndex] = useState(0);
+  
   return (
     <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
       <PaintTree />
@@ -87,7 +89,7 @@ const About = () => {
           exit="hidden"
           className="flex flex-col w-full xl:max-w-[48%] h-[480px]">
           <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
-            {aboutData.map((item, itemIndex) => {
+            {aboutData.map((item: AboutData, itemIndex: number) => {
               return (
                 <div
                   key={itemIndex}
@@ -102,7 +104,7 @@ const About = () => {
             })}
           </div>
           <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
-            {aboutData[index].info.map((item, itemIndex) => (
+            {aboutData[index].info.map((item: AboutInfo, itemIndex: number) => (
               <div key={`info-${itemIndex}`} className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60">
                 <div key={`title-${itemIndex}`} className="font-light mb-2 md:mb-0">{item.title}</div>
                 <div key={`hidden-${itemIndex}`} className="hidden md:flex"></div>

@@ -3,6 +3,7 @@ import Head from "next/head";
 import { SeoInterface } from "@/interfaces/SeoInterface";
 
 const Seo = ({ title, description }: SeoInterface) => {
+    
     return (
         <Head>
             <meta name="author" content="Vagner Mengali" />

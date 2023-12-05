@@ -12,6 +12,7 @@ import PaintTwo from '@/components/Other/Paints/PaintTwo/PaintTwo'
 import { ChildrenInterface } from '@/interfaces/ChildrenInterface';
 
 const Layout = ({ children }: ChildrenInterface) => {
+  
   return (
     <div className={`page bg-gradient text-white bg-cover bg-no-repeat ${sora.variable} font-sora relative`}>
       <PaintTwo />

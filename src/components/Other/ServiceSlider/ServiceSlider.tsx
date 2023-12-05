@@ -10,6 +10,7 @@ import { FreeMode, Pagination } from "swiper";
 import {serviceData} from "@/data/service"
 
 const ServiceSlider = () => {
+  
   return (
     <Swiper
       breakpoints={{
@@ -26,7 +27,7 @@ const ServiceSlider = () => {
       pagination={{
         clickable: true,
       }}
-      modules={{ FreeMode, Pagination }}
+      modules={{ FreeMode, Pagination } as any}
       className="h-[240px] sm:h-[340px]"
     >
       {serviceData.map((item, index) => {
