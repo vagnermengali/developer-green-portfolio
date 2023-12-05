@@ -1,28 +1,28 @@
 export const workSlider = {
   slides: [
     {
-      key: "slide1",
+      id: "slide1",
       images: [
         {
-          key: "image1",
+          id: "image1",
           title: "title",
           path: "/image/website.jpg",
           href: "/",
         },
         {
-          key: "image2",
+          id: "image2",
           title: "title",
           path: "/image/website.jpg",
           href: "/"
         },
         {
-          key: "image3",
+          id: "image3",
           title: "title",
           path: "/image/website.jpg",
           href: "/"
         },
         {
-          key: "image4",
+          id: "image4",
           title: "title",
           path: "/image/website.jpg",
           href: "/"
@@ -30,28 +30,28 @@ export const workSlider = {
       ],
     },
     {
-      key: "slide2",
+      id: "slide2",
       images: [
         {
-          key: "image5",
+          id: "image5",
           title: "title",
           path: "/image/website.jpg",
           href: "/"
         },
         {
-          key: "image6",
+          id: "image6",
           title: "title",
           path: "/image/website.jpg",
           href: "/"
         },
         {
-          key: "image7",
+          id: "image7",
           title: "title",
           path: "/image/website.jpg",
           href: "/"
         },
         {
-          key: "image8",
+          id: "image8",
           title: "title",
           path: "/image/website.jpg",
           href: "/"
