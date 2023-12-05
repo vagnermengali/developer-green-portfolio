@@ -11,7 +11,7 @@ import { AboutData, AboutInfo } from "@/interfaces/AboutInterface";
 
 const About = () => {
   const [index, setIndex] = useState(0);
-  
+
   return (
     <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
       <PaintTree />
@@ -22,7 +22,7 @@ const About = () => {
         exit="hidden"
         className="hidden xl:flex absolute -bottom-[100px] -left-[390px] z-[0] "
       >
-        <Avatar opacity={true}/>
+        <Avatar opacity={true} />
       </motion.div>
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
         <div className="flex-1 flex flex-col justify-center">
@@ -92,7 +92,7 @@ const About = () => {
             {aboutData.map((item: AboutData, itemIndex: number) => {
               return (
                 <div
-                  key={itemIndex}
+                  key={`about-${itemIndex}`}
                   className={`${index === itemIndex &&
                     "text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300"
                     } cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
