@@ -8,18 +8,20 @@ import {
 } from "react-icons/hi2";
 
 export const navData = [
-    { name: "Home", path: "/", icon: <HiHome /> },
-    { name: "Sobre", path: "/about", icon: <HiUser /> },
-    { name: "Serviços", path: "/services", icon: <HiRectangleGroup /> },
-    { name: "Projetos", path: "/projects", icon: <HiViewColumns /> },
+    { key: "nav1", name: "Home", path: "/", icon: <HiHome key="hiHome" /> },
+    { key: "nav2", name: "Sobre", path: "/about", icon: <HiUser key="hiUser" /> },
+    { key: "nav3", name: "Serviços", path: "/services", icon: <HiRectangleGroup key="hiRectangleGroup" /> },
+    { key: "nav4", name: "Projetos", path: "/projects", icon: <HiViewColumns key="hiViewColumns" /> },
     {
+        key: "nav5",
         name: "Indicações",
         path: "/indications",
-        icon: <HiChatBubbleBottomCenterText />,
+        icon: <HiChatBubbleBottomCenterText key="hiChatBubbleBottomCenterText" />,
     },
     {
+        key: "nav6",
         name: "Contato",
         path: "/contact",
-        icon: <HiEnvelope />,
+        icon: <HiEnvelope key="hiEnvelope" />,
     },
 ];
