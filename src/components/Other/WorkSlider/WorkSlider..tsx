@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
-import { Pagination } from "swiper";
+import { Pagination } from "swiper/modules";
 import { BsArrowRight } from "react-icons/bs";
 
 import { workSlider } from "@/data/work";
@@ -16,7 +16,7 @@ const WorkSlider = () => {
       pagination={{
         clickable: true,
       }}
-      modules={{ Pagination }}
+      modules={{ Pagination } as any}
       className="h-[280px] sm:h-[480px]"
     >
       {workSlider.slides.map((slide, index) => {
@@ -28,7 +28,7 @@ const WorkSlider = () => {
                   <div className="relative rounded-lg overflow-hidden flex items-center justify-center group" key={index}>
                     <Link href={image.href || "#"} target="_blank" passHref>
                     <div className="flex items-center justify-center relative overflow-hidden group">
-                      <Image href={image.href} src={image.path} width={500} height={300} alt="" />
+                      <Image alt={image.href} src={image.path} width={500} height={300} />
                       <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#08d665] to-[#FFF] opacity-0 group-hover:opacity-80 transition-all duration-700"></div>
                       <div  className="absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20 transition-all duration-300">
                         <div className="flex items-center gap-x-2 text-[13px] tracking-[0.2em]">
