@@ -1,16 +1,12 @@
-import "@/styles/globals.css";
+import { useRouter } from "next/router";
+import { AnimatePresence, motion } from "framer-motion";
 
-// components
 import Layout from "@/components/Other/Layout/Layout";
 import Transition from "@/components/Other/Transition/Transition";
 
-// router
-import { useRouter } from "next/router";
+import "@/styles/globals.css";
 
-// framer motion
-import { AnimatePresence, motion } from "framer-motion";
-
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: any) {
   const router = useRouter();
   return (
     <Layout>
