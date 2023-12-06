@@ -89,27 +89,27 @@ const About = () => {
           exit="hidden"
           className="flex flex-col w-full xl:max-w-[48%] h-[480px]">
           <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
-            {aboutData.map((item: AboutData, itemIndex: number) => (
+            {aboutData.map((item: AboutData, index: number) => (
               <div
-                key={`about-${itemIndex}`}
-                className={`${index === itemIndex &&
+                key={`about-${index}`}
+                className={`${index === index &&
                   "text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300"
                   } cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
-                onClick={() => setIndex(itemIndex)}
+                onClick={() => setIndex(index)}
               >
                 {item.title}
               </div>
             ))}
           </div>
           <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
-            {aboutData[index].info.map((item: AboutInfo, itemIndex: number) => (
-              <div key={`info-${itemIndex}`} className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60">
-                <div key={`title-${itemIndex}`} className="font-light mb-2 md:mb-0">{item.title}</div>
-                <div key={`hidden-${itemIndex}`} className="hidden md:flex"></div>
-                <div key={`stage-${itemIndex}`}>{item.stage}</div>
-                <div key={`icons-${itemIndex}`} className="flex gap-x-4">
+            {aboutData[index].info.map((item: AboutInfo, index: number) => (
+              <div key={`info-${index}`} className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60">
+                <div key={`title-${index}`} className="font-light mb-2 md:mb-0">{item.title}</div>
+                <div key={`hidden-${index}`} className="hidden md:flex"></div>
+                <div key={`stage-${index}`}>{item.stage}</div>
+                <div key={`icons-${index}`} className="flex gap-x-4">
                   {item.icons?.map((icon, iconIndex) => (
-                    <div key={`icon-${itemIndex}-${iconIndex}`} className="text-2xl text-white">
+                    <div key={`icon-${index}-${iconIndex}`} className="text-2xl text-white">
                       {icon}
                     </div>
                   ))}
