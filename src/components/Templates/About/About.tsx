@@ -109,13 +109,13 @@ const About = () => {
           </div>
           <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
             {aboutData[index].info.map((item: AboutInfo, index: number) => (
-              <div key={`info-${index}`} className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60">
-                <div key={`title-${index}`} className="font-light mb-2 md:mb-0">{item.title}</div>
+              <div key={`info-${index}`} className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-start text-white/60">
+                <div key={`title-${index}`} className="font-light mb-2 md:mb-0 whitespace-nowrap">{item.title}</div>
                 <div key={`hidden-${index}`} className="hidden md:flex"></div>
                 <div key={`stage-${index}`}>{item.stage}</div>
-                <div key={`icons-${index}`} className="flex gap-x-4">
+                <div key={`icons-${index}`} className="flex gap-x-4 flex-wrap">
                   {item.icons?.map((icon, iconIndex) => (
-                    <div key={`icon-${index}-${iconIndex}`} className="text-2xl text-white">
+                    <div key={`icon-${index}-${iconIndex}`} className="text-2xl text-white/90">
                       {icon}
                     </div>
                   ))}

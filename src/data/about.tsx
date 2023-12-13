@@ -1,8 +1,24 @@
+import { PiFigmaLogoThin } from "react-icons/pi";
 import {
-    RiHtml5Line,
-    RiCss3Line,
-    RiReactjsLine
-} from "react-icons/ri";
+    TbBrandNextjs,
+    TbBrandNodejs,
+    TbBrandCss3,
+    TbBrandHtml5,
+    TbBrandReact,
+    TbBrandFigma,
+    TbBrandDjango,
+    TbBrandDocker,
+    TbBrandMongodb,
+    TbBrandPrisma,
+    TbBrandPython,
+    TbBrandSass,
+    TbBrandTailwind,
+    TbBrandTypescript,
+    TbBrandJavascript,
+    TbBrandGit
+} from "react-icons/tb";
+
+/* faltou TbJewishStar, nestjs, express, SQlite, PostgreSQL */
 
 export const aboutData = [
     {
@@ -11,17 +27,30 @@ export const aboutData = [
         info: [
             {
                 id: "web-development",
-                title: "Desenvolvimento Web",
+                title: "Desenvolvimento Web - ",
                 icons: [
-                    <RiHtml5Line key="html5" />,
-                    <RiCss3Line key="css3" />,
-                    <RiReactjsLine key="react" />,
+                    <TbBrandHtml5 key="html5" />,
+                    <TbBrandCss3 key="css3" />,
+                    <TbBrandReact key="react" />,
+                    <TbBrandNextjs key="next" />,
+                    <TbBrandDjango key="django" />,
+                    <TbBrandDocker key="docker" />,
+                    <TbBrandNodejs key="node" />,
+                    <TbBrandMongodb key="mongo" />,
+                    <TbBrandPrisma key="prisma" />,
+                    <TbBrandPython key="python" />,
+                    <TbBrandSass key="sass" />,
+                    <TbBrandTailwind key="tailwind" />,
+                    <TbBrandTypescript key="typescript" />,
+                    <TbBrandJavascript key="javascript" />,
+                    <TbBrandGit key="git" />,
                 ],
             },
             {
                 id: "ui-ux-design",
-                title: "UI/UX Design",
+                title: "UI/UX Design -",
                 icons: [
+                    <TbBrandFigma key="figma" />,
                 ],
             },
         ],
@@ -32,57 +61,45 @@ export const aboutData = [
         info: [
             {
                 id: "education1",
-                title: "RocketSeat - Ignite (TypeScript - React - NextJs - API)",
-                stage: "10/2023",
+                title: "Desenvolvimento web full stack -",
+                stage: "mar de 2023",
                 key: "education1",
             },
             {
                 id: "education2",
-                title: "Matheus Battisti - React (API Rest)",
-                stage: "08/2023",
+                title: "Back end avançado -",
+                stage: "fev de 2023",
                 key: "education2",
             },
             {
                 id: "education3",
-                title: "Origamid - React Completo",
-                stage: "06/2023",
+                title: "DevOps & Agile culture -",
+                stage: "fev de 2023",
                 key: "education3",
             },
             {
                 id: "education4",
-                title: "DevSuperior - JavaScript",
-                stage: "04/2023",
+                title: "Introdução ao back end -",
+                stage: "jan de 2023",
                 key: "education4",
             },
             {
                 id: "education5",
-                title: "Origamid - JavaScript Completo",
-                stage: "03/2023",
+                title: "Programação web intermediária -",
+                stage: "out de 2022",
                 key: "education5",
             },
             {
                 id: "education6",
-                title: "B7WEB - HTML5 e CSS3",
-                stage: "01/2023",
+                title: "Desenvolvimento web front end -",
+                stage: "set de 2022",
                 key: "education6",
             },
             {
                 id: "education7",
-                title: "Origamid - HTML5 e CSS3",
-                stage: "12/2022",
+                title: "Introdução ao back end -",
+                stage: "jun de 2022",
                 key: "education7",
-            },
-            {
-                id: "education8",
-                title: "Origamid - Ui Design",
-                stage: "12/2022",
-                key: "education8",
-            },
-            {
-                id: "education9",
-                title: "Udemy - JAVA Programação Orientada a Objetos",
-                stage: "05/2022",
-                key: "education9",
             },
         ],
     },
@@ -92,46 +109,46 @@ export const aboutData = [
         info: [
             {
                 id: "experience1",
-                title: "Rede D'OR São Luiz | Auxiliar de Suprimentos",
-                stage: "11/2022 - 02/2023",
+                title: "Wicomm | Desenvolvedor front end -",
+                stage: "abr 2023 - o momento",
                 key: "experience1",
             },
             {
                 id: "experience2",
-                title: "Kwai - Editor",
-                stage: "03/2022 - 10/2022",
+                title: "Kenzie Academy Brasil | Monitor -",
+                stage: "mai 2022 - nov 2022",
                 key: "experience2",
             },
             {
                 id: "experience3",
-                title: "Editor VFX - Freelancer",
-                stage: "2020 - 2022",
+                title: "Fitoxs | Desenvolvedor full stack -",
+                stage: "set 2020 - fev 2020",
                 key: "experience3",
             },
             {
                 id: "experience4",
-                title: "Criador de Conteúdo",
-                stage: "2020 - 2022",
+                title: "Fitoxs | Desenvolvedor front end -",
+                stage: "fev 2020 - set 2020",
                 key: "experience4",
             },
         ],
     },
-    {
-        id: "formation",
-        title: "Formação",
-        info: [
-            {
-                id: "formation1",
-                title: "Cursando Análise e Desenvolvimento de Sistemas - UNICID",
-                stage: "01/2023 - 12/2024",
-                key: "formation1",
-            },
-            {
-                id: "formation2",
-                title: "Senac São Miguel Paulista | WINDOWS E OFFICE 2016",
-                stage: "06/2019 - 12/2019",
-                key: "formation2",
-            },
-        ],
-    },
+    /*     {
+            id: "formation",
+            title: "Formação",
+            info: [
+                {
+                    id: "formation1",
+                    title: "Cursando Análise e Desenvolvimento de Sistemas - UNICID",
+                    stage: "01/2023 - 12/2024",
+                    key: "formation1",
+                },
+                {
+                    id: "formation2",
+                    title: "Senac São Miguel Paulista | WINDOWS E OFFICE 2016",
+                    stage: "06/2019 - 12/2019",
+                    key: "formation2",
+                },
+            ],
+        }, */
 ];
