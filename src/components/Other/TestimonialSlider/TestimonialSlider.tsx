@@ -2,20 +2,20 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import "swiper/css/pagination";
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 import { RiDoubleQuotesL } from "react-icons/ri";
 
 import {testimonialSlider} from "@/data/indications"
+
 
 const TestimonialSlider = () => {
   return (
     <Swiper
       navigation={true}
       pagination={{
-        clickable: true,
+        clickable: false,
       }}
-      modules={{ Navigation, Pagination } as any}
+      modules={[ Navigation ] as any}
       className="h-[400px]"
     >
       {testimonialSlider.map((person, index) => {
