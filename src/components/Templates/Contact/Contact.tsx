@@ -1,4 +1,4 @@
-import { HiArrowRight } from "react-icons/hi2";
+import { RiArrowRightLine } from "react-icons/ri";
 import { motion } from "framer-motion";
 
 import { fadeIn } from "@/components/Animations/FadeIn";
@@ -46,7 +46,7 @@ const Contact = () => {
                 <span className="group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-300">
                   Enviar
                 </span>
-                <HiArrowRight className="-tranlate-y-[120%] opacity-0 group-hover:flex group-hover:-translate-y-0 group-hover:opacity-100 transition-all duration-300 absolute text-[22px]" />
+                <RiArrowRightLine className="-tranlate-y-[120%] opacity-0 group-hover:flex group-hover:-translate-y-0 group-hover:opacity-100 transition-all duration-300 absolute text-[22px]" />
               </button>
             </motion.form>
           </div>

@@ -46,7 +46,7 @@
 
 @layer base {
   body {
-    @apply bg-secondary overflow-hidden leading-relaxed font-futuraMedium;
+    @apply bg-secondary overflow-hidden leading-relaxed font-futuraLight;
   }
   .page {
     @apply w-full h-screen overflow-hidden;

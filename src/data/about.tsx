@@ -1,17 +1,8 @@
 import {
-    FaHtml5,
-    FaCss3,
-    FaJs,
-    FaSass,
-    FaReact,
-    FaFigma,
-} from "react-icons/fa";
-import {
-    SiNextdotjs,
-    SiFramer,
-    SiAdobexd,
-    SiAdobephotoshop,
-} from "react-icons/si";
+    RiHtml5Line,
+    RiCss3Line,
+    RiReactjsLine
+} from "react-icons/ri";
 
 export const aboutData = [
     {
@@ -22,22 +13,15 @@ export const aboutData = [
                 id: "web-development",
                 title: "Desenvolvimento Web",
                 icons: [
-                    <FaHtml5 key="html5" />,
-                    <FaCss3 key="css3" />,
-                    <FaSass key="sass" />,
-                    <FaJs key="js" />,
-                    <FaReact key="react" />,
-                    <SiNextdotjs key="nextjs" />,
-                    <SiFramer key="framer" />
+                    <RiHtml5Line key="html5" />,
+                    <RiCss3Line key="css3" />,
+                    <RiReactjsLine key="react" />,
                 ],
             },
             {
                 id: "ui-ux-design",
                 title: "UI/UX Design",
                 icons: [
-                    <FaFigma key="figma" />,
-                    <SiAdobexd key="adobexd" />,
-                    <SiAdobephotoshop key="adobephotoshop" />,
                 ],
             },
         ],

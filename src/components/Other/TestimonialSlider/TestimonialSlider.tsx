@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination } from "swiper/modules";
-import { FaQuoteLeft } from "react-icons/fa";
+import { RiDoubleQuotesL } from "react-icons/ri";
 
 import {testimonialSlider} from "@/data/indications"
 
@@ -33,7 +33,7 @@ const TestimonialSlider = () => {
               </div>
               <div className="flex-1 flex flex-col justify-center before:w-[1px] xl:before:bg-white/20 xl:before:absolute xl:before:left-0 xl:before:h-[200px] relative xl:pl-20">
                 <div className="mb-4">
-                  <FaQuoteLeft className="text-4xl xl:text-6xl text-white/20 mx-auto md:mx-0" />
+                  <RiDoubleQuotesL className="text-4xl xl:text-6xl text-white/20 mx-auto md:mx-0" />
                 </div>
                 <div className="xl:text-lg text-center md:text-left">{person.message}</div>
               </div>

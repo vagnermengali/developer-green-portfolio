@@ -1,14 +1,15 @@
 import Link from "next/link";
 import {
+  RiLinkedinLine,
+  RiFacebookLine,
   RiInstagramLine,
-  RiGithubFill,
-  RiMailFill,
-  RiLinkedinFill,
+  RiGithubLine,
+  RiTwitterLine,
+  RiMailLine
 } from "react-icons/ri";
-import { } from "react-icons/hi2";
 
 const Socials = () => {
-  
+
   return (
     <div className="flex items-center gap-x-5 text-lg">
       <Link
@@ -16,28 +17,42 @@ const Socials = () => {
         href={"https://github.com/vagnermengali"}
         className="hover:text-accent transition-all duration-300 max-w-[26px] max-h-[26px]"
       >
-        <RiGithubFill className="w-7 h-7"/>
+        <RiGithubLine className="w-5 h-5" />
+      </Link>
+      <Link
+        target="_blank"
+        href={"https://ms-my.facebook.com/vagner.mengali.9"}
+        className="hover:text-accent transition-all duration-300 max-w-[26px] max-h-[26px]"
+      >
+        <RiTwitterLine className="w-5 h-5" />
+      </Link>
+      <Link
+        target="_blank"
+        href={"https://ms-my.facebook.com/vagner.mengali.9"}
+        className="hover:text-accent transition-all duration-300 max-w-[26px] max-h-[26px]"
+      >
+        <RiFacebookLine className="w-5 h-5" />
       </Link>
       <Link
         target="_blank"
         href={"https://www.linkedin.com/in/vagnermengali/"}
         className="hover:text-accent transition-all duration-300 max-w-[26px] max-h-[26px]"
       >
-        <RiLinkedinFill className="w-7 h-7"/>
+        <RiLinkedinLine className="w-5 h-5" />
       </Link>
       <Link
         target="_blank"
         href={"https://www.instagram.com/vagner.mengali/"}
         className="hover:text-accent transition-all duration-300 max-w-[26px] max-h-[26px]"
       >
-        <RiInstagramLine className="w-7 h-7"/>
+        <RiInstagramLine className="w-5 h-5" />
       </Link>
       <Link
         target="_blank"
         href="mailto:contatovagnermengali@gmail.com"
         className="hover:text-accent transition-all duration-300 max-w-[26px] max-h-[26px]"
       >
-        <RiMailFill className="w-7 h-7"/>
+        <RiMailLine className="w-5 h-5" />
       </Link>
     </div>
   );

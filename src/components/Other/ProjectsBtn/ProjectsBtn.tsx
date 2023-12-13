@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { HiArrowRight } from "react-icons/hi2";
+import { RiArrowRightLine } from "react-icons/ri";
 
 const ProjectsBtn = () => {
   
@@ -17,7 +17,7 @@ const ProjectsBtn = () => {
           alt=""
           className="animate-spin-slow w-full h-full max-w-[101px] max-h-[108px]"
         />
-        <HiArrowRight className="absolute text-4xl group-hover:translate-x-2 transation-all duration-300" />
+        <RiArrowRightLine className="absolute text-4xl group-hover:translate-x-2 transation-all duration-300" />
       </Link>
     </div>
   );

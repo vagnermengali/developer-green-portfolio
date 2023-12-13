@@ -1,4 +1,4 @@
-import { HiArrowRight } from "react-icons/hi2";
+import { RiArrowRightLine } from "react-icons/ri";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -40,7 +40,7 @@ const ServiceSlider = () => {
                 </p>
               </div>
               <div className="text-3xl">
-                <HiArrowRight className="group-hover:rotate-45 group-hover:text-accent transition-all duration-300" />
+                <RiArrowRightLine className="group-hover:rotate-45 group-hover:text-accent transition-all duration-300" />
               </div>
             </div>
           </SwiperSlide>

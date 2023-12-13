@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
-import { HiArrowRight } from "react-icons/hi2";
+import { RiArrowRightLine } from "react-icons/ri";
 
 import { workSlider } from "@/data/work";
 
@@ -37,7 +37,7 @@ const WorkSlider = () => {
                             PROJETO
                           </div>
                           <div className="text-xl translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-200">
-                            <HiArrowRight />
+                            <RiArrowRightLine />
                           </div>
                         </div>
                       </div>
