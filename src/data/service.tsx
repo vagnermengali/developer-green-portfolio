@@ -23,11 +23,5 @@ export const serviceData = [
     icon: <RiBallPenLine key="pen" />,
     title: "Editor VFX",
     description: "Habilidades em efeitos visuais para contar histórias de forma cinematográfica",
-  },
-  {
-    id: "service4",
-    icon: <RiBillLine key="paper" />,
-    title: "Criador de conteúdo",
-    description: "Profundo entendimento de como engajar a audiência, promover o crescimento orgânico e estabelecer parcerias eficazes",
   }
 ];

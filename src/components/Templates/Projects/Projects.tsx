@@ -28,7 +28,7 @@ const Projects = () => {
               animate="show"
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0">
-              Explore meu portfólio de projetos como desenvolvedor frontend, onde cada linha de código é uma narrativa visual. De websites responsivos a experiências interativas, cada projeto reflete meu compromisso em unir estética e funcionalidade no universo digital.
+              Explore meu portfólio de projetos como desenvolvedor frontend, onde cada linha de código conta uma história visual. De websites responsivos a experiências interativas, cada projeto demonstra meu compromisso em combinar estética e funcionalidade no mundo digital.
             </motion.p>
           </div>
           <motion.div

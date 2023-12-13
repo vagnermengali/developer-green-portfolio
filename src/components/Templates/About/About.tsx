@@ -32,8 +32,7 @@ const About = () => {
             animate="show"
             exit="hidden"
             className="h2 z-10">
-            Histórias <span className="text-accent">cativantes</span> geram
-            designs magníficos.
+            Meu <span className="text-accent">Percurso</span> no Desenvolvimento
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
@@ -41,12 +40,7 @@ const About = () => {
             animate="show"
             exit="hidden"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 z-10">
-            Trabalhei como Editor VFX com
-            expertise em pós-produção, Motion
-            Graphics e 3D Edits. No ano de 2022 fiz
-            uma transição de carreira e desde então
-            venho me aprofundando no
-            desenvolvimento Frontend
+            Ingressei na carreira de TI por interesse em jogos, comecei a modificar códigos para melhorar jogos e, gradualmente, estudei por conta própria. Trabalhei meio período na Fixtoxs como desenvolvedor front-end, evoluindo para full stack. Após um curso em tempo integral, fui monitor na Kenzie Academy e, agora, sou desenvolvedor front-end na Wicomm, além de fazer projetos freelance como full stack.
           </motion.p>
           <motion.div
             variants={fadeIn("right", 0.6)}
@@ -57,28 +51,40 @@ const About = () => {
             <div className="flex flex-1 xl:gap-x-6">
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={2} duration={15} /> +
+                  <CountUp start={0} end={3} duration={15} /> +
                 </div>
-                <div className="text-xs uppercase tracking-wide tracking-[1px] leading-[1.4] max-w-[100px]">Years of experience</div>
+                <div className="text-xs uppercase tracking-wide tracking-[1px] leading-[1.4] max-w-[100px]">Anos de experiência</div>
               </div>
-              <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
+              {/*               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
                   <CountUp start={0} end={650} duration={5} /> +
                 </div>
-                <div className="text-xs uppercase tracking-wide tracking-[1px] leading-[1.4] max-w-[100px]">Satisfied Clients</div>
+                <div className="text-xs uppercase tracking-wide tracking-[1px] leading-[1.4] max-w-[100px]">Clientes Satisfeitos</div>
+              </div> */}
+              <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
+                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
+                  <CountUp start={0} end={75} duration={10} /> +
+                </div>
+                <div className="text-xs uppercase tracking-wide tracking-[1px] leading-[1.4] max-w-[100px]">Projetos finalizados</div>
               </div>
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={20} duration={10} /> +
+                  <CountUp start={0} end={127} duration={10} /> +
                 </div>
-                <div className="text-xs uppercase tracking-wide tracking-[1px] leading-[1.4] max-w-[100px]">Finished projects</div>
+                <div className="text-xs uppercase tracking-wide tracking-[1px] leading-[1.4] max-w-[100px]">Avaliações positivas</div>
               </div>
-              <div className="relative flex-1">
+              {/*               <div className="relative flex-1">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
                   <CountUp start={0} end={8} duration={5} /> +
                 </div>
-                <div className="text-xs uppercase tracking-wide tracking-[1px] leading-[1.4] max-w-[100px]">Winning awards</div>
-              </div>
+                <div className="text-xs uppercase tracking-wide tracking-[1px] leading-[1.4] max-w-[100px]">Ganhando prêmios</div>
+              </div> */}
+              <div className="relative flex-1">
+                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
+                  <CountUp start={0} end={17} duration={5} /> +
+                </div>
+                <div className="text-xs uppercase tracking-wide tracking-[1px] leading-[1.4] max-w-[100px]">Certificações Concluídas</div>
+              </div> *
             </div>
           </motion.div>
         </div>

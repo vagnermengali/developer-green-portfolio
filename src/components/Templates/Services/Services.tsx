@@ -20,7 +20,7 @@ const Services = () => {
               exit="hidden"
               className="h2 xl:mt-8"
             >
-             Meus serviços <span className="text-accent">.</span>
+              Meus serviços <span className="text-accent">.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn("up", 0.4)}
@@ -28,7 +28,7 @@ const Services = () => {
               animate="show"
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0">
-              Transformo visões em realidade digital, especializado em design gráfico, desenvolvimento web e soluções visuais personalizadas para potencializar a presença online de sua empresa.
+              Transformo conceitos em realidade digital, com especialização em design gráfico, desenvolvimento web e soluções visuais personalizadas para elevar a presença online da sua empresa.
             </motion.p>
           </div>
           <motion.div
