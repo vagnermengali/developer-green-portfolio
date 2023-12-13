@@ -1,6 +1,4 @@
-import {
-  RxArrowTopRight
-} from "react-icons/rx";
+import { HiArrowRight } from "react-icons/hi2";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -33,7 +31,7 @@ const ServiceSlider = () => {
       {serviceData.map((item, index) => {
         return (
           <SwiperSlide key={index}>
-            <div className="bg-[#0b0b0b] h-max rounded-lg px-6 py-8 flex sm:flex-col gap-x-6 sm:gap-x-0 group cursor-pointer hover:bg-[rgba(11,11,11,0.15)] transition-all duration-300">
+            <div className="bg-[#0b0b0b] h-max rounded-lg px-6 py-8 flex sm:flex-col gap-x-6 sm:gap-x-0 group cursor-pointer hover:bg-[#171717] transition-all duration-300">
               <div className="text-4xl text-accent mb-4">{item.icon}</div>
               <div className="mb-8">
                 <div className="mb-2 text-lg">{item.title}</div>
@@ -42,7 +40,7 @@ const ServiceSlider = () => {
                 </p>
               </div>
               <div className="text-3xl">
-                <RxArrowTopRight className="group-hover:rotate-45 group-hover:text-accent transition-all duration-300" />
+                <HiArrowRight className="group-hover:rotate-45 group-hover:text-accent transition-all duration-300" />
               </div>
             </div>
           </SwiperSlide>

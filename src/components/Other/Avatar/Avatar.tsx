@@ -11,7 +11,7 @@ const Avatar = ({ opacity }: AvatarInterface) => {
         width={737}
         height={678}
         alt=""
-        className={`translate-z-0 w-full h-full saturate-0 contrast-[128%] brightness-[90%] ${opacity ? 'opacity-50' : ''}`}
+        className={`translate-z-0 w-full h-full contrast-[140%] brightness-[70%] saturate-0 ${opacity ? 'opacity-50' : 'opacity-80'}`}
       />
     </div>
   );

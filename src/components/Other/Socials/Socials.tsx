@@ -5,6 +5,7 @@ import {
   RiMailFill,
   RiLinkedinFill,
 } from "react-icons/ri";
+import { } from "react-icons/hi2";
 
 const Socials = () => {
   

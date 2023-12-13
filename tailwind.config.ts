@@ -7,6 +7,11 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily: {
+      futuraLight: ["Futura-Light"],
+      futuraMedium: ["Futura-Medium"],
+      futuraBold: ["Futura-Bold"],
+    },
     container: {
       padding: {
         DEFAULT: '15px',
@@ -31,10 +36,6 @@ module.exports = {
       },
       animation: {
         'spin-slow': 'spin 6s linear infinite',
-      },
-      fontFamily: {
-        poppins: [`var(--font-poppins)`, 'sans-serif'],
-        sora: [`var(--font-sora)`, 'sans-serif'],
       },
     },
   },
