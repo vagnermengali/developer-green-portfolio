@@ -7,7 +7,7 @@ import { ChildrenInterface } from '@/interfaces/ChildrenInterface';
 const Layout = ({ children }: ChildrenInterface) => {
   
   return (
-    <div className={`page bg-gradient text-white bg-cover bg-no-repeat relative min-h-screen h-auto`}>
+    <div className={`page bg-gradient text-white bg-cover bg-no-repeat relative`}>
       <PaintTwo />
       <Nav />
       <Header />
