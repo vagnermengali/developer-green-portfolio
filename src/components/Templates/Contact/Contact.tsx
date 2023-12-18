@@ -12,7 +12,7 @@ const Contact = () => {
 
     <div>
       <div className="container mx-auto">
-        <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full">
+        <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-auto">
           <div className="flex flex-col w-full max-w-[700px]">
             <motion.h2
               variants={fadeIn("up", 0.2)}
