@@ -8,7 +8,7 @@ import Avatar from "@/components/Other/Avatar/Avatar";
 const Home = () => {
 
   return (
-    <div className="bg-primary/60 h-auto">
+    <div className="bg-primary/60 h-full">
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
         <div className="text-center flex flex-col justify-start xl:pt-40 xl:text-left h-full container mx-auto">
           <motion.h1

@@ -1,4 +1,4 @@
-import { NextApiRequest, NextApiResponse } from 'next';
+/* import { NextApiRequest, NextApiResponse } from 'next';
 import nodemailer from 'nodemailer';
 import dotenv from 'dotenv';
 
@@ -37,3 +37,4 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     res.status(500).json({ error: 'Erro interno ao enviar e-mail' });
   }
 }
+ */
