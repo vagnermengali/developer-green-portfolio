@@ -8,8 +8,8 @@ const Nav = () => {
   const pathname = router.pathname;
 
   return (
-    <nav className="flex flex-col items-center justify-center gap-y-4 fixed h-max bottom-0 mt-auto xl:right-[2%] z-50 top-0 w-full xl:w-16 xl:max-w-md xl:h-screen">
-      <div className="flex w-full xl:flex-col items-center justify-center gap-y-10 gap-x-6 px-4 md:px-40 xl:px-0 xl:h-max py-4 xl:py-8 bg-primary xl:bg-white/10 backdrop-blue-sm text-3xl xl:text-xl xl:rounded-full">
+    <nav className="flex flex-col items-center justify-center gap-y-4 fixed h-[10dvh] bottom-0 mt-auto xl:right-[2%] z-50 top-0 w-full xl:w-16 xl:max-w-md xl:h-screen">
+      <div className="flex w-full xl:flex-col items-center justify-center gap-y-10 gap-x-6 px-4 md:px-40 h-[10dvh] xl:px-0 xl:h-max py-4 xl:py-8 bg-primary xl:bg-white/10 backdrop-blue-sm text-3xl xl:text-xl xl:rounded-full">
         {navData.map((link, index) => {
           return (
             <Link
