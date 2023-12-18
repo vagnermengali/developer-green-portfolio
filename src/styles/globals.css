@@ -44,6 +44,21 @@
   color: #08d665;
 }
 
+.swiper-button-prev:after {
+  transform: rotate(180deg);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  content: "" !important;
+  background: url("/icon/arrow.svg") center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: unset !important;
+  width: 86px;
+  height: 141px;
+}
+
 @layer base {
   body {
     @apply bg-secondary overflow-hidden leading-relaxed font-futuraLight;

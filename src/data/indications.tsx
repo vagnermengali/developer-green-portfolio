@@ -37,7 +37,7 @@ export const testimonialSlider = [
     name: "Marcus Vinicius",
     position: "Desenvolvedor Full Stack",
     message:
-      "Mengali é um profissional exemplar no campo do Front-End, destacando-se não apenas pelo seu amplo conhecimento, mas também pela sua maestria na utilização de ferramentas como VTEX IO e CMS. Demonstrando uma sintonia constante com as inovações da área, ele se destaca por manter-se sempre atualizado, adotando as versões mais recentes dos frameworks e dedicando esforços incansáveis para refatorar o código. Sua busca pela perfeição é notável, evidenciando-se não apenas na preocupação em manter o código atualizado, mas também na incansável busca por melhorias, resultando em uma estrutura modularizada que facilita a reutilização e manutenção. Mengali personifica o comprometimento com a excelência e a habilidade de integrar conhecimentos específicos, como VTEX IO e CMS, em seu trabalho diário.",
+      "Mengali é um profissional de Front-End exemplar, conhecido por sua maestria em ferramentas como VTEX IO e CMS, sua atualização constante e busca pela perfeição, resultando em uma estrutura modularizada para facilitar a reutilização e manutenção. Ele personifica o comprometimento com a excelência e integração de conhecimentos específicos em seu trabalho diário.",
   },
   {
     id: "testimonial6",
@@ -45,7 +45,7 @@ export const testimonialSlider = [
     name: "Vinícius Moreira Henrique",
     position: "Desenvolvedor Full Stack",
     message:
-      "Escrevo para expressar minha mais alta recomendação para Vagner Mengali, com quem tive o prazer de trabalhar na Kenzie Academy Brasil. Durante nosso tempo juntos, Vagner demonstrou uma compreensão profunda e habilidade prática nas tecnologias que usamos em nosso curso de Desenvolvedor Full Stack. Ele se destacou não apenas na compreensão dos conceitos, mas também na aplicação prática deles em nosso projeto conjunto. Vagner é proficiente em várias tecnologias modernas, incluindo HTML, CSS, JavaScript, React no front-end e SQL, Python e Node.js no back-end. Sua capacidade de aplicar essas habilidades de maneira eficaz contribuiu significativamente para o sucesso de nosso projeto. Vagner é um profissional dedicado, sempre disposto a colocar o tempo e o esforço necessários para entregar um trabalho de alta qualidade. Ele é um excelente comunicador, capaz de explicar conceitos complexos de maneira clara e concisa. Estou confiante de que Vagner será uma adição valiosa para qualquer equipe de desenvolvimento e recomendo-o sem reservas.",
+      "Vagner Mengali é altamente recomendado devido à sua profunda compreensão e habilidade prática em tecnologias de desenvolvimento Full Stack, incluindo HTML, CSS, JavaScript, React, SQL, Python e Node.js. Ele se destaca na aplicação prática dessas habilidades, é dedicado, e possui excelente capacidade de comunicação. Vagner seria uma valiosa adição para qualquer equipe de desenvolvimento. Recomendo sem reservas.",
   },
   {
     id: "testimonial7",
@@ -53,7 +53,7 @@ export const testimonialSlider = [
     name: "Gabriel Fray",
     position: "Desenvolvedor Front End",
     message:
-      "Vagner Mengali é um colega excepcional, destacando-se não apenas por sua competência técnica, mas também por sua notável habilidade no âmbito do companheirismo e criatividade em design (UX/UI). Tive a satisfação de colaborar em diversos projetos com ele, onde sua presença foi um diferencial marcante. Sua dedicação ao trabalho em equipe é evidente, e a considero um verdadeiro ponto forte. Vagner não apenas contribui com suas habilidades técnicas, mas também promove um ambiente colaborativo e positivo, sem dúvidas um parceiro valioso em qualquer projeto. Além disso, sua expertise em design, especialmente em UX/UI, é notável. Vagner possui o talento único de criar sites visualmente atraentes e funcionais. Seus trabalhos são verdadeiras obras de arte, refletindo sua criatividade e atenção aos detalhes. Essa combinação de habilidades técnicas e visão estética torna suas contribuições excepcionais.",
+      "Gabriel Fray, colega de equipe de Vagner Mengali, destaca a competência técnica e a notável habilidade de Vagner em design (UX/UI). Ele elogia a dedicação de Vagner ao trabalho em equipe, bem como sua expertise em criar sites visualmente atraentes e funcionais, tornando suas contribuições excepcionais.",
   },
   {
     id: "testimonial8",
