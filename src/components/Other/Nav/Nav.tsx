@@ -8,13 +8,13 @@ const Nav = () => {
   const pathname = router.pathname;
 
   return (
-    <nav className="flex flex-col items-center xl:justify-center gap-y-4 fixed h-max bottom-0 mt-auto xl:right-[2%] z-50 top-0 w-full xl:w-16 xl:max-w-md xl:h-screen">
-      <div className="flex w-full xl:flex-col items-center justify-between xl:justfy-center gap-y-10 px-4 md:px-40 xl:px-0 h-[80] xl:h-max py-8 bg-white/10 backdrop-blue-sm text-3xl xl:text-xl xl:rounded-full sm:bg-black">
+    <nav className="flex flex-col items-center justify-center gap-y-4 fixed h-max bottom-0 mt-auto xl:right-[2%] z-50 top-0 w-full xl:w-16 xl:max-w-md xl:h-screen">
+      <div className="flex w-full xl:flex-col items-center justify-center gap-y-10 gap-x-6 px-4 md:px-40 xl:px-0 xl:h-max py-4 xl:py-8 bg-primary xl:bg-white/10 backdrop-blue-sm text-3xl xl:text-xl xl:rounded-full">
         {navData.map((link, index) => {
           return (
             <Link
               className={`${link.path === pathname && "text-accent"
-                } relative flex items-center group hover:text-accent transition-all duration-300 sm:max-w-[26px] sm:max-h-[26px]`}
+                } relative flex items-center group hover:text-accent transition-all duration-300 xl:w-fit w-6`}
               href={link.path}
               key={index}
             >
@@ -25,7 +25,7 @@ const Nav = () => {
                   <div className="border-solid border-l-white border-l-8 border-y-transparent border-y-[6px] border-r-0 absolute -right-2"></div>
                 </div>
               </div>
-              <div>{link.icon}</div>
+              <div className="xl:w-5 w-4">{link.icon}</div>
             </Link>
           );
         })}
