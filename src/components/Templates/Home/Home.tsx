@@ -10,13 +10,13 @@ const Home = () => {
   return (
     <div className="bg-primary/60 h-full">
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
-        <div className="text-center flex flex-col justify-start xl:pt-40 xl:text-left h-full container mx-auto">
+        <div className="text-center flex flex-col justify-start xl:pt-40 my-20 xl:my-0  xl:text-left h-full container mx-auto">
           <motion.h1
             variants={fadeIn("down", 0.2)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1 mt-8">
+            className="h1 xl:mt-8 mt-0 mb-8">
             Transformando códigos <br /> em{" "}
             <span className="text-accent">Realidade Digital</span>
           </motion.h1>
