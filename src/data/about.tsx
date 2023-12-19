@@ -27,7 +27,7 @@ export const aboutData = [
         info: [
             {
                 id: "web-development",
-                title: "Desenvolvimento Web - ",
+                title: "Desenvolvimento Web  ",
                 icons: [
                     <TbBrandHtml5 key="html5" />,
                     <TbBrandCss3 key="css3" />,
@@ -48,7 +48,7 @@ export const aboutData = [
             },
             {
                 id: "ui-ux-design",
-                title: "UI/UX Design -",
+                title: "UI/UX Design ",
                 icons: [
                     <TbBrandFigma key="figma" />,
                 ],
@@ -61,43 +61,43 @@ export const aboutData = [
         info: [
             {
                 id: "education1",
-                title: "Desenvolvimento web full stack -",
+                title: "Desenvolvimento web full stack ",
                 stage: "mar de 2023",
                 key: "education1",
             },
             {
                 id: "education2",
-                title: "Back end avançado -",
+                title: "Back end avançado ",
                 stage: "fev de 2023",
                 key: "education2",
             },
             {
                 id: "education3",
-                title: "DevOps & Agile culture -",
+                title: "DevOps & Agile culture ",
                 stage: "fev de 2023",
                 key: "education3",
             },
             {
                 id: "education4",
-                title: "Introdução ao back end -",
+                title: "Introdução ao back end ",
                 stage: "jan de 2023",
                 key: "education4",
             },
             {
                 id: "education5",
-                title: "Programação web intermediária -",
+                title: "Programação web intermediária ",
                 stage: "out de 2022",
                 key: "education5",
             },
             {
                 id: "education6",
-                title: "Desenvolvimento web front end -",
+                title: "Desenvolvimento web front end ",
                 stage: "set de 2022",
                 key: "education6",
             },
             {
                 id: "education7",
-                title: "Introdução ao back end -",
+                title: "Introdução ao back end ",
                 stage: "jun de 2022",
                 key: "education7",
             },
@@ -109,26 +109,26 @@ export const aboutData = [
         info: [
             {
                 id: "experience1",
-                title: "Wicomm | Desenvolvedor front end -",
-                stage: "abr 2023 - o momento",
+                title: "Wicomm | Desenvolvedor front end ",
+                stage: "abr 2023  o momento",
                 key: "experience1",
             },
             {
                 id: "experience2",
-                title: "Kenzie Academy Brasil | Monitor -",
-                stage: "mai 2022 - nov 2022",
+                title: "Kenzie Academy Brasil | Monitor ",
+                stage: "mai 2022  nov 2022",
                 key: "experience2",
             },
             {
                 id: "experience3",
-                title: "Fitoxs | Desenvolvedor full stack -",
-                stage: "set 2020 - fev 2020",
+                title: "Fitoxs | Desenvolvedor full stack ",
+                stage: "set 2020  fev 2020",
                 key: "experience3",
             },
             {
                 id: "experience4",
-                title: "Fitoxs | Desenvolvedor front end -",
-                stage: "fev 2020 - set 2020",
+                title: "Fitoxs | Desenvolvedor front end ",
+                stage: "fev 2020  set 2020",
                 key: "experience4",
             },
         ],
@@ -139,14 +139,14 @@ export const aboutData = [
             info: [
                 {
                     id: "formation1",
-                    title: "Cursando Análise e Desenvolvimento de Sistemas - UNICID",
-                    stage: "01/2023 - 12/2024",
+                    title: "Cursando Análise e Desenvolvimento de Sistemas  UNICID",
+                    stage: "01/2023  12/2024",
                     key: "formation1",
                 },
                 {
                     id: "formation2",
                     title: "Senac São Miguel Paulista | WINDOWS E OFFICE 2016",
-                    stage: "06/2019 - 12/2019",
+                    stage: "06/2019  12/2019",
                     key: "formation2",
                 },
             ],
