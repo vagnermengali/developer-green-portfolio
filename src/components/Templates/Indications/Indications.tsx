@@ -13,7 +13,7 @@ const Indications = () => {
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="h2 mb-8 xl:mb-0"
+          className="h2 mb-6 xl:mb-0"
         >
           Recomendações de <span className="text-accent">colegas.</span>
         </motion.h2>
