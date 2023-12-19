@@ -35,7 +35,7 @@ const TestimonialSlider = () => {
                 <div className="xl:flex hidden mb-4">
                   <RiDoubleQuotesL className="text-4xl xl:text-6xl text-white/20 mx-auto md:mx-0" />
                 </div>
-                <div className="xl:text-lg text-center md:text-left xl:mt-0 mt-3">{person.message}</div>
+                <div className="xl:text-lg text-center md:text-left xl:mt-0 mt-3 xl:overflow-hidden overflow-y-scroll max-h-60 xl:max-h-full">{person.message}</div>
               </div>
             </div>
           </SwiperSlide>
