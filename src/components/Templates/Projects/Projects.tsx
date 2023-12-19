@@ -8,7 +8,7 @@ import PaintTree from "@/components/Other/Paints/PaintTree/PaintTree";
 const Projects = () => {
 
   return (
-    <div className="h-full bg-primary/30 xl:py-36 my-20 xl:my-0 flex items-center">
+    <div className="xl:h-full h-fit bg-primary/30 xl:py-36 my-20 xl:my-0 flex items-center">
       <PaintTree />
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-8">

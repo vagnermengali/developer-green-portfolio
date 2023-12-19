@@ -13,7 +13,7 @@ const About = () => {
   const [index, setIndex] = useState(0);
 
   return (
-    <div className="h-full bg-primary/30 xl:py-32 my-20 xl:my-0 text-center xl:text-left">
+    <div className="xl:h-full h-fit bg-primary/30 xl:py-32 my-20 xl:my-0 text-center xl:text-left">
       <PaintTree />
       <motion.div
         variants={fadeIn("right", 0.2)}
