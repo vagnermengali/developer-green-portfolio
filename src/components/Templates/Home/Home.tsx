@@ -45,7 +45,7 @@ const Home = () => {
         </div>
       </div>
       <div className="w-[100vw] h-full absolute right-0 bottom-0">
-        <div className="bg-none xl:bg-paints xl:bg-cover xl:bg-center xl:bg-no-repeat hue-rotate-[-20deg] w-full h-full absolute mix-blend-color-dodge translate-z-0">
+        <div className="xl:opacity-100 opacity-30 bg-paints bg-cover bg-center bg-no-repeat hue-rotate-[-20deg] w-full h-full absolute mix-blend-color-dodge translate-z-0">
         </div>
         <ParticlesContainer />
         <motion.div
