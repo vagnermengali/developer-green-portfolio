@@ -2,11 +2,14 @@ import { motion } from "framer-motion";
 
 import { fadeIn } from "@/components/Animations/FadeIn";
 import TestimonialSlider from "@/components/Other/TestimonialSlider/TestimonialSlider";
+import PaintOne from "@/components/Other/Paints/PaintOne/PaintOne";
+import PaintTree from "@/components/Other/Paints/PaintTree/PaintTree";
 
 const Indications = () => {
 
   return (
     <div className="xl:h-full h-fit bg-primary/30 xl:py-32 mt-16 mb-14 xl:mb-0 xl:mt-0 text-center">
+      <PaintTree />
       <div className="container mx-auto h-full flex flex-col xl:justify-center">
         <motion.h2
           variants={fadeIn("up", 0.2)}
@@ -26,6 +29,7 @@ const Indications = () => {
           <TestimonialSlider />
         </motion.div>
       </div>
+      <PaintOne />
     </div>
   );
 };

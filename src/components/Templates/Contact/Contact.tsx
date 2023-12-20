@@ -2,6 +2,8 @@ import { RiArrowRightLine } from "react-icons/ri";
 import { motion } from "framer-motion";
 
 import { fadeIn } from "@/components/Animations/FadeIn";
+import PaintOne from "@/components/Other/Paints/PaintOne/PaintOne";
+import PaintTree from "@/components/Other/Paints/PaintTree/PaintTree";
 
 const Contact = () => {
   function handleSubmit(e: any) {
@@ -12,6 +14,7 @@ const Contact = () => {
 
     <div>
       <div className="container mx-auto">
+      <PaintTree />
         <div className="mx-auto xl:py-32 mt-16 mb-14 xl:mb-0 xl:mt-0 text-center xl:text-left flex items-center justify-center xl:h-full h-fit">
           <div className="flex flex-col w-full max-w-[700px]">
             <motion.h2
@@ -52,6 +55,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <PaintOne />
     </div>
   );
 };
