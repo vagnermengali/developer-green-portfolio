@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
 
@@ -11,6 +11,14 @@ import { AboutData, AboutInfo } from "@/interfaces/AboutInterface";
 
 const About = () => {
   const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    if (window.innerWidth > 1024) {
+      setIndex(1);
+    } else {
+      setIndex(0);
+    }
+  }, []);
 
   return (
     <div className="xl:h-full h-fit bg-primary/30 xl:py-32 mt-20 xl:mb-0 xl:my-0 text-center xl:text-left">
@@ -39,7 +47,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 z-10">
+            className="hidden xl:flex max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 z-10">
             Ingressei na carreira de TI por interesse em jogos, comecei a modificar códigos para melhorar jogos e, gradualmente, estudei por conta própria. Trabalhei meio período na Fixtoxs como desenvolvedor front-end, evoluindo para full stack. Após um curso em tempo integral, fui monitor na Kenzie Academy e, agora, sou desenvolvedor front-end na Wicomm, além de fazer projetos freelance como full stack.
           </motion.p>
           <motion.div
@@ -88,7 +96,7 @@ const About = () => {
                 key={`about-${index}`}
                 className={`${index === index &&
                   "text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300"
-                  } cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
+                  } cursor-pointer capitalize xl:text-lg xl:first:hidden relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0 text-[15px]`}
                 onClick={() => setIndex(index)}
               >
                 {item.title}
@@ -98,10 +106,10 @@ const About = () => {
           <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
             {aboutData[index].info.map((item: AboutInfo, index: number) => (
               <div key={`info-${index}`} className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60 xl:items-start">
-                <div key={`title-${index}`} className="font-light mb-2 md:mb-0 whitespace-nowrap">{item.title}</div>
+                <div key={`title-${index}`} className={`font-light mb-2 md:mb-0 whitespace-nowrap ${item.title ? "" : "hidden"}`}>{item.title}</div>
                 <div key={`hidden-${index}`} className="hidden md:flex"></div>
                 <div key={`stage-${index}`}>{item.stage}</div>
-                <div key={`icons-${index}`} className="flex gap-x-4 flex-wrap xl:justify-start justify-center">
+                <div key={`icons-${index}`} className="flex gap-x-4 flex-wrap xl:justify-start justify-center xl xl:px-0 px-5">
                   {item.icons?.map((icon, iconIndex) => (
                     <div key={`icon-${index}-${iconIndex}`} className="text-2xl text-white/90">
                       {icon}

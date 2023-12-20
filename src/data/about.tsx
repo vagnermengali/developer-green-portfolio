@@ -22,6 +22,18 @@ import {
 
 export const aboutData = [
     {
+        id: "about",
+        title: "Sobre mim",
+        info: [
+            {
+                id: "about1",
+                title: "",
+                stage: "Ingressei na carreira de TI por interesse em jogos, comecei a modificar códigos para melhorar jogos e, gradualmente, estudei por conta própria. Trabalhei meio período na Fixtoxs como desenvolvedor front-end, evoluindo para full stack. Após um curso em tempo integral, fui monitor na Kenzie Academy e, agora, sou desenvolvedor front-end na Wicomm, além de fazer projetos freelance como full stack.",
+                key: "about1",
+            }
+        ],
+    },
+    {
         id: "skills",
         title: "Habilidades",
         info: [
