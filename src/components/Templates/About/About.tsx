@@ -103,7 +103,7 @@ const About = () => {
               </div>
             ))}
           </div>
-          <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
+          <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start scrollbar-none max-h-80 xl:overflow-hidden overflow-y-scroll xl:max-h-full">
             {aboutData[index].info.map((item: AboutInfo, index: number) => (
               <div key={`info-${index}`} className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60 xl:items-start">
                 <div key={`title-${index}`} className={`font-light mb-2 md:mb-0 whitespace-nowrap ${item.title ? "" : "hidden"}`}>{item.title}</div>
