@@ -21,7 +21,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className="xl:h-full h-fit bg-primary/30 xl:py-32 mt-20 xl:mb-0 xl:my-0 text-center xl:text-left">
+    <div className="h-[100dvh] xl:h-full bg-primary/30 xl:py-32 mt-20 xl:mb-0 xl:my-0 text-center xl:text-left">
       <PaintTree />
       <motion.div
         variants={fadeIn("right", 0.2)}
