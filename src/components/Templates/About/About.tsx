@@ -21,7 +21,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className="xl:h-full h-fit bg-primary/30 xl:py-32 mt-20 xl:mb-0 xl:my-0 text-center xl:text-left">
+    <div className="xl:h-screen h-fit bg-primary/30 xl:py-32 mt-20 xl:mb-0 xl:my-0 text-center xl:text-left">
       <PaintTree />
       <motion.div
         variants={fadeIn("right", 0.2)}
@@ -80,7 +80,7 @@ const About = () => {
                   <CountUp start={0} end={17} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-wide tracking-[1px] leading-[1.4] max-w-[100px]">Certificações Concluídas</div>
-              </div> *
+              </div> 
             </div>
           </motion.div>
         </div>
