@@ -89,7 +89,7 @@ const Contact = () => {
                   render={({ field }) => (
                     <input
                       type="text"
-                      placeholder="nome"
+                      placeholder="Nome"
                       className={errors.name ? "input border-red/20" : "input"}
                       {...field}
                     />
