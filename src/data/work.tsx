@@ -5,9 +5,15 @@ export const workSlider = {
       images: [
         {
           id: "image1",
-          title: "title",
+          title: "Porfólio 1",
           path: "/image/project-1.png",
           href: "https://vagnermengali.com",
+        },
+        {
+          id: "image2",
+          title: "Porfólio 2",
+          path: "/image/project-2.png",
+          href: "https://developer-portfolio-vagnermengali.vercel.app/",
         }
       ],
     }
