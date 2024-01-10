@@ -1,20 +1,10 @@
-import *  as  yup from "yup"
+import * as yup from "yup";
 
-export const schema = yup.object().shape({
-    name: yup.string()
-    .required("Campo obrigatório")
-    .min(3, "A senha deve ter pelo menos 3 caracteres")
-    .matches((/^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑs]+$/),"O nome deve conter apenas letras."),
+const schema = yup.object().shape({
+  name: yup.string().required("O nome é obrigatório"),
+  email: yup.string().email("Email inválido").required("O email é obrigatório"),
+  subject: yup.string().required("O assunto é obrigatório"),
+  message: yup.string().required("A mensagem é obrigatória"),
+});
 
-    email: yup.string()
-    .required("Campo obrigatório")
-    .email("E-mail inválido")
-    .matches((/^[a-z0-9_.]+@[a-z]+.([a-z]+)$/),"Verifique seu e-mail"),
-
-    subject: yup.string()
-    .required("Campo obrigatório"),
-
-    message: yup.string()
-    .required("Campo obrigatório"),
-
-  });
+export default schema;

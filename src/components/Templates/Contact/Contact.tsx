@@ -3,36 +3,28 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { useForm, SubmitHandler, Controller } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
-import * as yup from "yup";
+import { useRouter } from "next/router";
+import schema from "@/validators/sendEmail";
+import Swal from "sweetalert2";
 
 import { fadeIn } from "@/components/Animations/FadeIn";
 import PaintOne from "@/components/Other/Paints/PaintOne/PaintOne";
 import PaintTree from "@/components/Other/Paints/PaintTree/PaintTree";
-
-interface UserData {
-  name: string;
-  email: string;
-  subject: string;
-  message: string;
-}
-
-const schema = yup.object().shape({
-  name: yup.string().required("O nome é obrigatório"),
-  email: yup.string().email("Email inválido").required("O email é obrigatório"),
-  subject: yup.string().required("O assunto é obrigatório"),
-  message: yup.string().required("A mensagem é obrigatória"),
-});
+import { SendEmailInterface } from "@/interfaces/SendEmailInterface";
 
 const Contact = () => {
+  const router = useRouter();
+
   const {
     control,
     handleSubmit,
     formState: { errors },
-  } = useForm<UserData>({
+    reset,
+  } = useForm<SendEmailInterface>({
     resolver: yupResolver(schema),
   });
 
-  const onSubmit: SubmitHandler<UserData> = (data) => {
+  const onSubmit: SubmitHandler<SendEmailInterface> = (data) => {
     const templateParams = {
       name: data.name,
       subject: data.subject,
@@ -46,6 +38,20 @@ const Contact = () => {
       .then(
         (response) => {
           console.log("EMAIL ENVIADO", response.status, response.text);
+          reset();
+          Swal.fire({
+            position: "center",
+            icon: "success",
+            title: "Sua mensagem foi enviada com sucesso! Obrigado",
+            showConfirmButton: false,
+            width: 600,
+            padding: "3em",
+            color: "#fff",
+            background: "#101010",
+            backdrop: `rgba(0, 0, 0, 0.493)`,
+            timer: 1500
+          });
+          router.push('/');
         },
         (err) => {
           console.log("ERROR", err);
