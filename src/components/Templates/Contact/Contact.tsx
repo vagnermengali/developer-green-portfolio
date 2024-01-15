@@ -33,8 +33,16 @@ const Contact = () => {
       url: window.location.href,
     };
 
+    const serviceId = process.env.NEXT_PUBLIC_SERVICE_ID;
+    const templateId = process.env.NEXT_PUBLIC_TEMPLATE_ID;
+    const publicKey = process.env.NEXT_PUBLIC_PUBLIC_KEY;
+
+    if (!serviceId || !templateId || !publicKey) {
+      throw new Error("Variáveis de ambiente não estão definidas corretamente.");
+    }
+    
     emailjs
-      .send("service_690fb1r", "template_n9c9q7d", templateParams, "g-7_aa-swIuHF3gEg")
+      .send(serviceId, templateId, templateParams, publicKey)
       .then(
         (response) => {
           console.log("EMAIL ENVIADO", response.status, response.text);
