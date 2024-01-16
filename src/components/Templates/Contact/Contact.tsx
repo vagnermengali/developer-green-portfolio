@@ -36,11 +36,9 @@ const Contact = () => {
     const serviceId = process.env.NEXT_PUBLIC_SERVICE_ID;
     const templateId = process.env.NEXT_PUBLIC_TEMPLATE_ID;
     const publicKey = process.env.NEXT_PUBLIC_PUBLIC_KEY;
-    
-    console.log(serviceId, templateId, publicKey)
 
     if (!serviceId || !templateId || !publicKey) {
-      throw new Error("Variáveis de ambiente não estão definidas corretamente.");
+      throw new Error("Variáveis de ambiente não estão definidas corretamente");
     }
 
     emailjs
