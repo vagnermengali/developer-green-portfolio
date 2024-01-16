@@ -13,7 +13,7 @@ export const workSlider = {
           id: "image2",
           title: "Porfólio 2",
           path: "/image/project-2.png",
-          href: "https://developer-portfolio-vagnermengali.vercel.app/",
+          href: "https://developergreen-portfolio-vagnermengali.vercel.app/",
         }
       ],
     }
