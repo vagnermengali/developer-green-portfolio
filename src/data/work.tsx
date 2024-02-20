@@ -5,15 +5,38 @@ export const workSlider = {
       images: [
         {
           id: "image1",
-          title: "Porfólio 1",
-          path: "/image/project-1.png",
+          title: "Portfolio",
+          path: "/portfolio.webp",
           href: "https://vagnermengali.com",
         },
         {
           id: "image2",
-          title: "Porfólio 2",
-          path: "/image/project-2.png",
-          href: "https://developergreen-portfolio-vagnermengali.vercel.app/",
+          title: "YRprey",
+          path: "/yrprey.webp",
+          href: "https://yrprey-git-main-vagnermengali.vercel.app/",
+        },
+        {
+          id: "image3",
+          title: "Portfolio",
+          path: "/portfolio-blue.webp",
+          href: "https://developer-blue-portfolio-vagnermengali.vercel.app/",
+        },
+        {
+          id: "image4",
+          title: "Dogma",
+          path: "/dogma.webp",
+          href: "https://www.grupodogma.site/",
+        }
+      ],
+    },
+    {
+      id: "slide2",
+      images: [
+        {
+          id: "image1",
+          title: "Portfolio",
+          path: "/portfolio-green.webp",
+          href: "https://developer-green-portfolio-vagnermengali.vercel.app/",
         }
       ],
     }

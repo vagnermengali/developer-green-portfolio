@@ -16,13 +16,15 @@ const Socials = () => {
         target="_blank"
         href={"https://github.com/vagnermengali"}
         className="hover:text-accent transition-all duration-300 xl:max-w-[26px] xl:max-h-[26px] max-w-[16px] max-h-[16px]"
+        aria-label={"github"}
       >
         <RiGithubLine className="w-5 h-5" />
       </Link>
       <Link
         target="_blank"
-        href={"https://ms-my.facebook.com/vagner.mengali.9"}
+        href={"https://twitter.com/vagnermengali"}
         className="hover:text-accent transition-all duration-300 xl:max-w-[26px] xl:max-h-[26px] max-w-[16px] max-h-[16px]"
+        aria-label={"twitter"}
       >
         <RiTwitterLine className="w-5 h-5" />
       </Link>
@@ -30,6 +32,7 @@ const Socials = () => {
         target="_blank"
         href={"https://ms-my.facebook.com/vagner.mengali.9"}
         className="hover:text-accent transition-all duration-300 xl:max-w-[26px] xl:max-h-[26px] max-w-[16px] max-h-[16px]"
+        aria-label={"facebook"}
       >
         <RiFacebookLine className="w-5 h-5" />
       </Link>
@@ -37,6 +40,7 @@ const Socials = () => {
         target="_blank"
         href={"https://www.linkedin.com/in/vagnermengali/"}
         className="hover:text-accent transition-all duration-300 xl:max-w-[26px] xl:max-h-[26px] max-w-[16px] max-h-[16px]"
+        aria-label={"linkedin"}
       >
         <RiLinkedinLine className="w-5 h-5" />
       </Link>
@@ -44,6 +48,7 @@ const Socials = () => {
         target="_blank"
         href={"https://www.instagram.com/vagner.mengali/"}
         className="hover:text-accent transition-all duration-300 xl:max-w-[26px] xl:max-h-[26px] max-w-[16px] max-h-[16px]"
+        aria-label={"instagram"}
       >
         <RiInstagramLine className="w-5 h-5" />
       </Link>
@@ -51,6 +56,7 @@ const Socials = () => {
         target="_blank"
         href="mailto:contatovagnermengali@gmail.com"
         className="hover:text-accent transition-all duration-300 xl:max-w-[26px] xl:max-h-[26px] max-w-[16px] max-h-[16px]"
+        aria-label={"email"}
       >
         <RiMailLine className="w-5 h-5" />
       </Link>

@@ -6,7 +6,7 @@ const AboutPage = () => {
     <>
       <Seo
         title={'About'}
-        description=""
+        description="Conheça a história por trás do desenvolvedor. Nesta seção, compartilho minha paixão pela tecnologia, minha jornada profissional e os valores que guiam meu trabalho."
       />
       <About />
     </>

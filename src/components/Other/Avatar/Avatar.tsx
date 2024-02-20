@@ -7,7 +7,7 @@ const Avatar = ({ opacity }: AvatarInterface) => {
   return (
     <div className="flex max-w-none">
       <Image
-        src={"/image/avatar.png"}
+        src={"/avatar.webp"}
         width={737}
         height={678}
         alt=""

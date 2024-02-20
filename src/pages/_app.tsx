@@ -1,3 +1,4 @@
+import type { AppProps } from "next/app";
 import { useRouter } from "next/router";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -6,7 +7,7 @@ import Transition from "@/components/Other/Transition/Transition";
 
 import "@/styles/globals.css";
 
-function MyApp({ Component, pageProps }: any) {
+function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
   return (
     <Layout>

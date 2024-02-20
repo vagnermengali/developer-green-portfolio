@@ -1,7 +1,7 @@
 export const testimonialSlider = [
   {
     id: "testimonial1",
-    image: "/image/adam.jpg",
+    image: "/adam.webp",
     name: "Adam Neves",
     position: "Desenvolvedor Front End",
     message:
@@ -9,7 +9,7 @@ export const testimonialSlider = [
   },
   {
     id: "testimonial2",
-    image: "/image/matheus.jpg",
+    image: "/matheus.webp",
     name: "Matheus Sudré",
     position: "Desenvolvedor Front End",
     message:
@@ -17,7 +17,7 @@ export const testimonialSlider = [
   },
   {
     id: "testimonial3",
-    image: "/image/kelven.jpg",
+    image: "/kelven.webp",
     name: "Kelven Souza",
     position: "Desenvolvedor Front End",
     message:
@@ -25,7 +25,7 @@ export const testimonialSlider = [
   },
   {
     id: "testimonial4",
-    image: "/image/amon.jpg",
+    image: "/amon.webp",
     name: "Amon Fanticelli",
     position: "Desenvolvedor Full Stack",
     message:
@@ -33,7 +33,7 @@ export const testimonialSlider = [
   },
   {
     id: "testimonial5",
-    image: "/image/marcus.jpg",
+    image: "/marcus.webp",
     name: "Marcus Vinicius",
     position: "Desenvolvedor Full Stack",
     message:
@@ -41,7 +41,7 @@ export const testimonialSlider = [
   },
   {
     id: "testimonial6",
-    image: "/image/vinicius.jpeg",
+    image: "/vinicius.jpeg",
     name: "Vinícius Moreira Henrique",
     position: "Desenvolvedor Full Stack",
     message:
@@ -49,7 +49,7 @@ export const testimonialSlider = [
   },
   {
     id: "testimonial7",
-    image: "/image/gabriel.jpeg",
+    image: "/gabriel.jpeg",
     name: "Gabriel Fray",
     position: "Desenvolvedor Front End",
     message:
@@ -57,14 +57,14 @@ export const testimonialSlider = [
   },
   {
     id: "testimonial8",
-    image: "/image/yuran.jpg",
+    image: "/yuran.webp",
     name: "Yuran Vita",
     position: "Desenvolvedor Full Stack",
     message:
       "Dedicado e sempre disposto a ajudar.",
   }, {
     id: "testimonial9",
-    image: "/image/joao.jpg",
+    image: "/joao.webp",
     name: "João Porfirio",
     position: "Desenvolvedor Front End",
     message:
@@ -72,14 +72,14 @@ export const testimonialSlider = [
   },
   {
     id: "testimonial10",
-    image: "/image/fernando.jpg",
+    image: "/fernando.webp",
     name: "Fernando Mengali",
     position: "Especialista em Segurança da Informação",
     message:
       "Vagner é um profissional muito qualificado e completo. Possui uma curva de aprendizagem extramamente rápida, além do foco, disciplina e proatividade na área de desenvolvimento de software. No contexto de soft skills, tem uma excelente comunicação com seus intelecutores, apresentando de forma clara e objetivo suas idéias e soluções, elaborando um bom planejamento e liderando com performance a execução de cada etapa.",
   },{
     id: "testimonial11",
-    image: "/image/enilson.jpg",
+    image: "/enilson.webp",
     name: "Enilson Silva",
     position: "Desenvolvedor Front End",
     message:

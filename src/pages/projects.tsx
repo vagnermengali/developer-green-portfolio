@@ -6,7 +6,7 @@ const ProjectsPage = () => {
     <>
       <Seo
         title={'Projects'}
-        description=""
+        description="Explore uma galeria de projetos inspiradores e inovadores. Cada projeto é uma demonstração do meu compromisso com a excelência técnica e a entrega de soluções sob medida para os clientes."
       />
       <Projects />
     </>

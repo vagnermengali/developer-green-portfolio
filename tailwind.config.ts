@@ -30,7 +30,7 @@ module.exports = {
         accent: '#08d665',
       },
       backgroundImage: {
-        paints: 'url("/image/green-background-4.jpg")',
+        paints: 'url("/green-background-4.webp")',
         circle: 'url("/icon/circle.svg")',
         gradient: 'url("/icon/site-bg.svg")',
       },
