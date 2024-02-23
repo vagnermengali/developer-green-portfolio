@@ -16,7 +16,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1 xl:mt-8 mt-0 mb-8">
+            className="h1 xl:mt-8 mt-0 mb-8 w-fit">
             Transformando códigos <br /> em{" "}
             <span className="text-accent">Realidade Digital</span>
           </motion.h1>
