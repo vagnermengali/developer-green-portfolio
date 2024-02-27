@@ -3,7 +3,7 @@
 [![Banner](https://github.com/vagnermengali/developer-green-portfolio/blob/main/public/portfolio-green.webp)](https://developer-green-portfolio-vagnermengali.vercel.app/)
 
 Este é um portfólio criado para fins de estudo em Next.js, TypeScript, Tailwind CSS, @emailjs/browser,
-Swiper, React Hook Form, Framer Motion e React Countup.
+Swiper, React Hook Form, Framer Motion, React tsparticles, Yup e SweetAlert2. e React Countup.
 
 ## Tecnologias Utilizadas
 
@@ -15,6 +15,9 @@ Swiper, React Hook Form, Framer Motion e React Countup.
 - **React Hook Form**: Uma biblioteca para formulários em React, com suporte a hooks.
 - **Framer Motion**: Uma biblioteca de animação para React.
 - **React Countup**: Um componente React para criar animações de contagem.
+- **React tsparticles**: Uma biblioteca para criar partículas animadas em React.
+- **Yup**: Uma biblioteca de validação de esquemas JavaScript.
+- **SweetAlert2**: Uma biblioteca para criar modais de alerta elegantes e personalizáveis.
 
 ## Rotas Disponíveis
 
