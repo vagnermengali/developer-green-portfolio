@@ -1,5 +1,7 @@
 # Developer green portfolio
 
+[![Banner](https://github.com/vagnermengali/developer-green-portfolio/blob/main/public/portfolio-green.webp)](https://github.com/vagnermengali/developer-green-portfolio)
+
 Este é um portfólio criado para fins de estudo em Next.js, TypeScript, Tailwind CSS, @emailjs/browser,
 Swiper, React Hook Form, Framer Motion e React Countup.
 
