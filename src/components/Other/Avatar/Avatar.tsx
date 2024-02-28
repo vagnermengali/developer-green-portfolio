@@ -8,11 +8,11 @@ const Avatar = ({ opacity }: AvatarInterface) => {
     <div className="flex max-w-none">
       <Image
         src={"/avatar.webp"}
-        width={737}
-        height={678}
+        width={1000}
+        height={1000}
         alt=""
         loading="eager"
-        className={`translate-z-0 w-full h-full contrast-[140%] brightness-[70%] saturate-0 ${opacity ? 'xl:opacity-50 opacity-20' : 'xl:opacity-80 opacity-20'}`}
+        className={`translate-z-0 w-full h-full ${opacity ? 'xl:opacity-50 opacity-20' : 'xl:opacity-70 opacity-20'}`}
       />
     </div>
   );

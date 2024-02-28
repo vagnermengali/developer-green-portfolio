@@ -26,7 +26,7 @@ const About = () => {
         initial="hidden"
         animate="show"
         exit="hidden"
-        className="hidden xl:flex absolute -bottom-[100px] -left-[390px] z-[0] "
+        className="hidden xl:flex absolute -bottom-[100px] -left-[210px] z-[0] max-w-[460px] "
       >
         <Avatar opacity={true} />
       </motion.div>
