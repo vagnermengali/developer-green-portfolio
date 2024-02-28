@@ -16,7 +16,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1 xl:mt-8 mt-0 mb-8 w-fit">
+            className="h1 xl:mt-0 mt-0 mb-8 w-fit xl:text-[55px]">
             Transformando códigos <br /> em{" "}
             <span className="text-accent">Realidade Digital</span>
           </motion.h1>
@@ -25,7 +25,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10">
+            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-8">
             Entusiasta de tecnologia com vasta experiência em desenvolvimento web. Especializado em JavaScript e TypeScript, com ênfase na construção de interfaces modernas usando React.js e Next.js. Dedico-me apaixonadamente a criar soluções elegantes e eficazes que aprimoram a experiência do usuário.
           </motion.p>
           <div className="flex justify-center xl:hidden relative">
