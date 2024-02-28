@@ -17,7 +17,7 @@ const ProjectsBtn = () => {
           alt="rounded-text"
           className="animate-spin-slow w-full h-full max-w-[111px] max-h-[118px] m-auto cursor-pointer"
         />
-        <RiArrowRightLine className="absolute text-4xl group-hover:translate-x-2 transation-all duration-300" />
+        <RiArrowRightLine className="text-4xl" />
       </Link>
     </div>
   );
