@@ -29,7 +29,7 @@ const WorkSlider = () => {
                     <Link href={image.href || "#"} target="_blank" passHref>
                     <div className="flex items-center justify-center relative overflow-hidden group">
                       <Image alt={image.href} src={image.path} width={500} height={300} />
-                      <div className="absolute inset-0 bg-gradient bg-[length:86.125rem_86.125rem] bg-repeat bg-bottom from-transparent via-[#08d665] to-[#FFF] opacity-0 group-hover:opacity-80 transition-all duration-700"></div>
+                      <div className="absolute inset-0 bg-white/10 backdrop-blur-sm opacity-0 group-hover:opacity-80 transition-all duration-700"></div>
                       <div  className="absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20 transition-all duration-300">
                         <div className="flex items-center gap-x-2 text-[13px] tracking-[0.2em]">
                           <div className="delay-100">VER</div>
