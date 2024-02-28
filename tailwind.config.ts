@@ -8,9 +8,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      futuraLight: ["Futura-Light"],
-      futuraMedium: ["Futura-Medium"],
-      futuraBold: ["Futura-Bold"],
+
     },
     container: {
       padding: {
