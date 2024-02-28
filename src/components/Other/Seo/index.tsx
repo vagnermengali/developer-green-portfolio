@@ -31,7 +31,6 @@ const Seo = ({ title, description }: SeoInterface) => {
             <meta property="al:android:app_name" content="Vagner Mengali" />
             <meta property="al:android:url" content="https://vagnermengali.com/" />
             <link rel="canonical" href="https://vagnermengali.com/" />
-            <link rel="preload" href="/path/to/font.woff2" as="font" type="font/woff2" />
         </Head>
     );
 };
