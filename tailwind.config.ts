@@ -28,9 +28,9 @@ module.exports = {
         accent: '#08d665',
       },
       backgroundImage: {
-        paints: 'url("/green-background-4.webp")',
         circle: 'url("/icon/circle.svg")',
-        gradient: 'url("/icon/site-bg.svg")',
+        gradient: 'url("/bg-dark.webp")',
+        cube: 'url("/cube.webp")',
       },
       animation: {
         'spin-slow': 'spin 6s linear infinite',

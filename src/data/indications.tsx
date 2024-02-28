@@ -41,7 +41,7 @@ export const testimonialSlider = [
   },
   {
     id: "testimonial6",
-    image: "/vinicius.jpeg",
+    image: "/vinicius.webp",
     name: "Vinícius Moreira Henrique",
     position: "Desenvolvedor Full Stack",
     message:
@@ -49,7 +49,7 @@ export const testimonialSlider = [
   },
   {
     id: "testimonial7",
-    image: "/gabriel.jpeg",
+    image: "/gabriel.webp",
     name: "Gabriel Fray",
     position: "Desenvolvedor Front End",
     message:
