@@ -31,7 +31,7 @@ const ServiceSlider = () => {
       {serviceData.map((item, index) => {
         return (
           <SwiperSlide key={index}>
-            <div className="bg-[#0b0b0b] h-max rounded-lg px-6 py-8 flex sm:flex-col gap-x-6 sm:gap-x-0 group cursor-pointer hover:bg-[#171717] transition-all duration-300">
+            <div className="bg-white/10 backdrop-blur-sm h-max rounded-lg px-6 py-8 flex sm:flex-col gap-x-6 sm:gap-x-0 group cursor-pointer transition-all duration-300">
               <div className="text-4xl text-accent mb-4">{item.icon}</div>
               <div className="mb-8">
                 <div className="mb-2 text-lg">{item.title}</div>

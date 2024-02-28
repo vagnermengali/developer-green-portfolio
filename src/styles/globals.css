@@ -71,11 +71,11 @@
     @apply h-[52px];
   }
   .input {
-    @apply w-full h-[52px] rounded-lg pl-6;
+    @apply w-full h-[52px] rounded-lg pl-6 bg-white/10 backdrop-blur-sm;
   }
   .input,
   .textarea {
-    @apply bg-transparent outline-none focus:ring-1 focus:ring-accent border border-white/20 placeholder:text-white/30 placeholder:font-light scrollbar-none;
+    @apply bg-white/10 backdrop-blur-sm outline-none focus:ring-1 focus:ring-accent border border-white/20 placeholder:text-white/30 placeholder:font-light scrollbar-none;
   }
   .textarea {
     @apply w-full h-[180px] p-6 rounded-lg resize-none;
