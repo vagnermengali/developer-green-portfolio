@@ -7,7 +7,7 @@ const Layout = ({ children }: ChildrenInterface) => {
   
   return (
     <div className={`page bg-gradient bg-[length:86.125rem_86.125rem] bg-repeat bg-bottom text-white relative h-screen`}>
-      <div className='bg-cube'>
+      <div className={`page bg-cube text-white relative h-screen`}>
       <Nav />
       <Header />
       {children}
