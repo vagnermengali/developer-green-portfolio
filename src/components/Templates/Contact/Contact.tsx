@@ -8,8 +8,6 @@ import schema from "@/validators/sendEmail";
 import Swal from "sweetalert2";
 
 import { fadeIn } from "@/components/Animations/FadeIn";
-import PaintOne from "@/components/Other/Paints/PaintOne/PaintOne";
-import PaintTree from "@/components/Other/Paints/PaintTree/PaintTree";
 import { SendEmailInterface } from "@/interfaces/SendEmailInterface";
 
 const Contact = () => {
@@ -70,7 +68,6 @@ const Contact = () => {
   return (
     <div>
       <div className="container mx-auto">
-        <PaintTree />
         <div className="mx-auto xl:py-32 mt-16 mb-14 xl:mb-0 xl:mt-0 text-center xl:text-left flex items-center justify-center">
           <div className="flex flex-col w-full max-w-[700px]">
             <motion.h2
@@ -154,7 +151,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <PaintOne />
     </div>
   );
 };

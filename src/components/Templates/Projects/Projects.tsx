@@ -2,14 +2,11 @@ import { motion } from "framer-motion";
 
 import { fadeIn } from "@/components/Animations/FadeIn";
 import WorkSlider from "@/components/Other/WorkSlider/WorkSlider.";
-import PaintOne from "@/components/Other/Paints/PaintOne/PaintOne";
-import PaintTree from "@/components/Other/Paints/PaintTree/PaintTree";
 
 const Projects = () => {
 
   return (
     <div className="bg-primary/30 xl:py-36 mt-16 mb-14 xl:mb-0 xl:mt-0 flex items-center">
-      <PaintTree />
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-8">
           <div className="text-center flex xl:w-[30vw] flex-col lg:text-left mb-6 xl:mb-0">
@@ -41,7 +38,6 @@ const Projects = () => {
           </motion.div>
         </div>
       </div>
-      <PaintOne />
     </div>
   );
 };

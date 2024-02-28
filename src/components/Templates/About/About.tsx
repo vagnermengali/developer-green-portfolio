@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 
 import { fadeIn } from "@/components/Animations/FadeIn";
 import Avatar from "@/components/Other/Avatar/Avatar";
-import PaintTree from "@/components/Other/Paints/PaintTree/PaintTree";
 
 import { aboutData } from "@/data/about";
 import { AboutData, AboutInfo } from "@/interfaces/AboutInterface";
@@ -22,7 +21,6 @@ const About = () => {
 
   return (
     <div className=" bg-primary/30 xl:py-32 mt-20 xl:mb-0 xl:my-0 text-center xl:text-left">
-      <PaintTree />
       <motion.div
         variants={fadeIn("right", 0.2)}
         initial="hidden"
