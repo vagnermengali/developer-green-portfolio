@@ -20,7 +20,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className=" bg-primary/30 xl:py-32 mt-20 xl:mb-0 xl:my-0 text-center xl:text-left">
+    <div className=" bg-primary/30 xl:py-32 pt-20 xl:mb-0 xl:my-0 text-center xl:text-left">
       <motion.div
         variants={fadeIn("right", 0.2)}
         initial="hidden"
@@ -101,13 +101,13 @@ const About = () => {
               </div>
             ))}
           </div>
-          <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start scrollbar-none max-h-80 xl:overflow-hidden overflow-y-scroll xl:max-h-full">
+          <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start scrollbar-none md:max-h-40 max-h-80 xl:overflow-hidden overflow-y-scroll xl:max-h-full">
             {aboutData[index].info.map((item: AboutInfo, index: number) => (
-              <div key={`info-${index}`} className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60 xl:items-start">
+              <div key={`info-${index}`} className="flex-1 flex flex-col max-w-max gap-x-2 items-center text-white/60 xl:items-start">
                 <div key={`title-${index}`} className={`font-light mb-2 md:mb-0 whitespace-nowrap ${item.title ? "" : "hidden"}`}>{item.title}</div>
                 <div key={`hidden-${index}`} className="hidden md:flex"></div>
                 <div key={`stage-${index}`}>{item.stage}</div>
-                <div key={`icons-${index}`} className="flex gap-x-4 flex-wrap xl:justify-start justify-center xl xl:px-0 px-5">
+                <div key={`icons-${index}`} className="flex gap-x-4 flex-wrap xl:justify-start justify-center xl xl:px-0 px-5 xl:max-w-[350px]">
                   {item.icons?.map((icon, iconIndex) => (
                     <div key={`icon-${index}-${iconIndex}`} className="text-2xl text-white/90">
                       {icon}

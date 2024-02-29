@@ -6,7 +6,7 @@ import ServiceSlider from "@/components/Other/ServiceSlider/ServiceSlider";
 const Services = () => {
 
   return (
-    <div className="bg-primary/30 xl:py-36 mt-16 mb-14 xl:mb-0 xl:mt-0 flex items-start xl:h-screen">
+    <div className="bg-primary/30 xl:pt-[6%] xl:py-36 pt-16 pb-14 xl:pb-0 xl:mt-0 flex items-start xl:h-screen">
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-8">
           <div className="text-center flex xl:w-[30vw] flex-col lg:text-left mb-6 xl:mb-0">

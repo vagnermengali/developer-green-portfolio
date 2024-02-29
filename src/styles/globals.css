@@ -37,6 +37,14 @@
   width: 86px;
   height: 141px;
 }
+
+.swiper-button-prev {
+  left: 40px !important;
+}
+.swiper-button-next {
+  right: 40px !important;
+}
+
 @media (max-width: 1024px) {
   .swiper-button-prev {
     left: -6px !important;

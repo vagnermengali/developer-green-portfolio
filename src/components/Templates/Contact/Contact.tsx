@@ -67,9 +67,9 @@ const Contact = () => {
 
   return (
     <div>
-      <div className="container mx-auto">
-        <div className="mx-auto xl:py-32 mt-16 mb-14 xl:mb-0 xl:mt-0 text-center xl:text-left flex items-center justify-center">
-          <div className="flex flex-col w-full max-w-[700px]">
+      <div className="container flex items-center justify-center bg-primary/30 max-w-full xl: w-[-webkit-fill-available]">
+        <div className="mx-auto xl:pt-[6%] xl:py-32 mt-16 mb-14 xl:mb-0 xl:mt-0 text-center xl:text-left flex items-center justify-center w-[700px]">
+          <div className="flex flex-col w-full">
             <motion.h2
               variants={fadeIn("up", 0.2)}
               initial="hidden"

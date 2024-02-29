@@ -6,7 +6,7 @@ import TestimonialSlider from "@/components/Other/TestimonialSlider/TestimonialS
 const Indications = () => {
 
   return (
-    <div className="bg-primary/30 xl:py-32 mt-16 mb-14 xl:mb-0 xl:mt-0 text-center">
+    <div className="bg-primary/30 xl:pt-[6%] xl:py-32 pt-16 pb-14 xl:pb-0 xl:mt-0 text-center">
       <div className="container mx-auto h-full flex flex-col xl:justify-center">
         <motion.h2
           variants={fadeIn("up", 0.2)}
