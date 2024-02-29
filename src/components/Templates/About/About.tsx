@@ -20,7 +20,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className=" bg-primary/30 xl:py-32 pt-20 xl:mb-0 xl:my-0 text-center xl:text-left">
+    <div className=" bg-primary/30 h-[inherit] xl:py-32 pt-20 xl:mb-0 xl:my-0 text-center xl:text-left">
       <motion.div
         variants={fadeIn("right", 0.2)}
         initial="hidden"

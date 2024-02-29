@@ -28,7 +28,7 @@ module.exports = {
         accent: '#08d665',
       },
       backgroundImage: {
-        circle: 'url("/icon/circle.svg")',
+        circle: 'url("/circle.webp")',
         gradient: 'url("/bg-dark.webp")',
         cube: 'url("/cube.webp")',
       },

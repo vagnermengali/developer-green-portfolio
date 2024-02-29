@@ -8,11 +8,11 @@ const Seo = ({ title, description }: SeoInterface) => {
         <Head>
             <meta name="author" content="Vagner Mengali" />
             <meta name="keywords" content="Javascript" />
-            <link rel="fluid-icon" href="icon/favicon.svg" title="Vagner Mengali" />
-            <link rel="icon" type="image/svg+xml" href="icon/favicon.svg" />
+            <link rel="fluid-icon" href="/favicon.webp" title="Vagner Mengali" />
+            <link rel="icon" type="image/svg+xml" href="/favicon.webp" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <title>{title === "Homepage" ? "Vagner Mengali • Portfólio" : `${title} • Vagner Mengali • Portfólio`}</title>
-            <link rel="shortcut icon" href="icon/favicon.svg" type="image/x-icon" />
+            <link rel="shortcut icon" href="/favicon.webp" type="image/x-icon" />
             <meta name="description" content={description} />
             <meta property="og:title" content={title} />
             <meta property="og:description" content={description} />

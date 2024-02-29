@@ -30,7 +30,7 @@
 .swiper-button-next:after,
 .swiper-button-prev:after {
   content: "" !important;
-  background: url("/icon/arrow.svg") center center;
+  background: url("/arrow.webp") center center;
   background-size: contain;
   background-repeat: no-repeat;
   background-color: unset !important;
