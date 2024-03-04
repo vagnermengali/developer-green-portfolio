@@ -4,9 +4,11 @@ import { motion } from "framer-motion";
 
 import { fadeIn } from "@/components/Animations/FadeIn";
 import Avatar from "@/components/Other/Avatar/Avatar";
+import Icon from "@/components/Other/Icon/Icon";
 
 import { aboutData } from "@/data/about";
 import { AboutData, AboutInfo } from "@/interfaces/AboutInterface";
+
 
 const About = () => {
   const [index, setIndex] = useState(0);
@@ -57,7 +59,7 @@ const About = () => {
             <div className="flex flex-1 xl:gap-x-6">
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={3} duration={15} /> +
+                  <CountUp start={0} end={4} duration={15} /> +
                 </div>
                 <div className="text-xs uppercase tracking-wide tracking-[1px] leading-[1.4] max-w-[100px]">Anos de experiência</div>
               </div>
@@ -78,7 +80,7 @@ const About = () => {
                   <CountUp start={0} end={17} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-wide tracking-[1px] leading-[1.4] max-w-[100px]">Certificações Concluídas</div>
-              </div> 
+              </div>
             </div>
           </motion.div>
         </div>
@@ -88,7 +90,7 @@ const About = () => {
           animate="show"
           exit="hidden"
           className="flex flex-col w-full xl:max-w-[48%] h-[480px]">
-          <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
+          <div className="flex gap-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
             {aboutData.map((item: AboutData, index: number) => (
               <div
                 key={`about-${index}`}
@@ -103,14 +105,14 @@ const About = () => {
           </div>
           <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start scrollbar-none md:max-h-40 max-h-80 xl:overflow-hidden overflow-y-scroll xl:max-h-full">
             {aboutData[index].info.map((item: AboutInfo, index: number) => (
-              <div key={`info-${index}`} className="flex-1 flex flex-col max-w-max gap-x-2 items-center text-white/60 xl:items-start">
+              <div key={`info-${index}`} className="flex-1 flex flex-col max-w-max gap-2 items-center text-white/60 xl:items-start">
                 <div key={`title-${index}`} className={`font-light mb-2 md:mb-0 whitespace-nowrap ${item.title ? "" : "hidden"}`}>{item.title}</div>
                 <div key={`hidden-${index}`} className="hidden md:flex"></div>
                 <div key={`stage-${index}`}>{item.stage}</div>
-                <div key={`icons-${index}`} className="flex gap-x-4 flex-wrap xl:justify-start justify-center xl xl:px-0 px-5 xl:max-w-[350px]">
+                <div key={`icons-${index}`} className="flex gap-4 flex-wrap xl:justify-start justify-center xl xl:px-0 px-5 xl:max-w-[500px]">
                   {item.icons?.map((icon, iconIndex) => (
                     <div key={`icon-${index}-${iconIndex}`} className="text-2xl text-white/90">
-                      {icon}
+                      <Icon width={24} height={24} id={icon} />
                     </div>
                   ))}
                 </div>

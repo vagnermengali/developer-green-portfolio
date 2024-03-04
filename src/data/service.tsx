@@ -1,27 +1,26 @@
 import { 
-  RiComputerLine, 
-  RiBillLine,
-  RiBallPenLine,
-  RiAspectRatioLine
+  RiCodeSSlashFill, 
+  RiVipDiamondFill,
+  RiDatabase2Fill
 } from "react-icons/ri";
 
 export const serviceData = [
   {
     id: "service1",
-    icon: <RiComputerLine key="desktop" />,
+    icon: <RiCodeSSlashFill key="Desenvolvedor Front-End" />,
     title: "Desenvolvedor",
-    description: "Transformando designs em realidade interativa.",
+    description: "Trabalhei em soluções abrangentes que abrangem front-end. Posso criar aplicações robustas e integradas, proporcionando uma experiência de usuário completa.",
   },
   {
     id: "service2",
-    icon: <RiAspectRatioLine key="aspectRatio" />,
-    title: "Thumbmaker",
-    description: "Domínio de design gráfico e estratégias de destaque visual",
+    icon: <RiDatabase2Fill key="aspectRatio" />,
+    title: "Desenvolvedor Back-End",
+    description: "Minha paixão pelo desenvolvimento back-end me levou a construir bases sólidas para aplicações, garantindo desempenho, escalabilidade e segurança.",
   },
   {
     id: "service3",
-    icon: <RiBallPenLine key="pen" />,
-    title: "Editor VFX",
-    description: "Habilidades em efeitos visuais para contar histórias de forma cinematográfica",
+    icon: <RiVipDiamondFill key="pen" />,
+    title: "Identidade pessoal",
+    description: "Meu entusiasmo pelo aprendizado contínuo alimenta minha busca por novos desafios e soluções inovadoras em programação.",
   }
 ];
