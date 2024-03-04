@@ -1,5 +1,10 @@
 # Developer Green Portfolio
 
+<div align="center">
+  <img src='https://github.com/vagnermengali/developer-blue-portfolio/blob/main/public/perfomace.webp'/>
+</div>
+
+
 [![Banner](https://github.com/vagnermengali/developer-green-portfolio/blob/main/public/portfolio-green.webp)](https://developer-green-portfolio-vagnermengali.vercel.app/)
 
 This is a portfolio created for study purposes in Next.js, TypeScript, Tailwind CSS, @emailjs/browser,
