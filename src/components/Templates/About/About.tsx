@@ -112,7 +112,7 @@ const About = () => {
                 <div key={`icons-${index}`} className="flex gap-4 flex-wrap xl:justify-start justify-center xl xl:px-0 px-5 xl:max-w-[500px]">
                   {item.icons?.map((icon, iconIndex) => (
                     <div key={`icon-${index}-${iconIndex}`} className="text-2xl text-white/90">
-                      <Icon width={24} height={24} id={icon} />
+                      <Icon className="" width={24} height={24} id={icon} />
                     </div>
                   ))}
                 </div>
