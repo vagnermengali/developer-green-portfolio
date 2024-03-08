@@ -2,10 +2,6 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  experimental: {
-    optimizeFonts: true,
-  },
-  compress: true,
   async headers() {
     return [
       {

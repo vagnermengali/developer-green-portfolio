@@ -71,10 +71,10 @@ const Contact = () => {
         <div className="mx-auto xl:pt-[6%] xl:py-32 mt-16 xl:pb-0 mb-14 xl:mb-0 xl:mt-0 text-center xl:text-left flex items-center justify-center w-[700px] h-[inherit]">
           <div className="flex flex-col w-full">
             <motion.h2
-  /*             variants={fadeIn("up", 0.2)}
+              variants={fadeIn("up", 0.2)}
               initial="hidden"
               animate="show"
-              exit="hidden" */
+              exit="hidden"
               className="h2 text-center xl:mb-12 mb-6"
             >
               Vamos <span className="text-accent">conversar.</span>
