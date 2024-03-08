@@ -10,23 +10,15 @@ const Services = () => {
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-8">
           <div className="text-center flex xl:w-[30vw] flex-col lg:text-left mb-6 xl:mb-0">
-            <motion.h2
-              variants={fadeIn("up", 0.2)}
-              initial="hidden"
-              animate="show"
-              exit="hidden"
+            <h2
               className="h2 xl:mt-8"
             >
               Meus serviços <span className="text-accent">.</span>
-            </motion.h2>
-            <motion.p
-              variants={fadeIn("up", 0.4)}
-              initial="hidden"
-              animate="show"
-              exit="hidden"
+            </h2>
+            <p
               className="xl:mb-4 mb-0 max-w-[400px] mx-auto lg:mx-0">
               Transformo conceitos em realidade digital, com especialização em design gráfico, desenvolvimento web e soluções visuais personalizadas para elevar a presença online da sua empresa.
-            </motion.p>
+            </p>
           </div>
           <motion.div
             variants={fadeIn("down", 0.6)}

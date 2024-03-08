@@ -34,14 +34,10 @@ const About = () => {
       </motion.div>
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
         <div className="flex-1 flex flex-col justify-center">
-          <motion.h2
-            variants={fadeIn("right", 0.2)}
-            initial="hidden"
-            animate="show"
-            exit="hidden"
+          <h2
             className="h2 z-10">
             Meu <span className="text-accent">Percurso</span> no Desenvolvimento
-          </motion.h2>
+          </h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
             initial="hidden"
