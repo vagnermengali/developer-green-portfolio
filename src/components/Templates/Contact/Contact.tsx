@@ -53,8 +53,8 @@ const Contact = () => {
             width: 600,
             padding: "3em",
             color: "#fff",
-            background: "#101010",
-            backdrop: `rgba(0, 0, 0, 0.493)`,
+            background: "#0b0d0e",
+            backdrop: "rgba(0,0,0,0.4)",
             timer: 1500
           });
           router.push('/');
