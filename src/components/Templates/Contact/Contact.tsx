@@ -68,7 +68,7 @@ const Contact = () => {
   return (
     <div className="h-full">
       <div className="container flex items-center justify-center bg-primary/30 h-[inherit] max-w-full xl: w-[-webkit-fill-available]">
-        <div className="mx-auto xl:pt-[6%] xl:py-32 mt-16 xl:pb-0 mb-14 xl:mb-0 xl:mt-0 text-center xl:text-left flex items-center justify-center w-[700px] h-[inherit]">
+        <div className="mx-auto xl:pt-[6%] xl:py-32 pt-12 xl:pb-0 mb-14 xl:mb-0 xl:mt-0 text-center xl:text-left flex items-center justify-center w-[700px] h-[inherit]">
           <div className="flex flex-col w-full">
             <h2
               className="h2 text-center xl:mb-12 mb-6"
