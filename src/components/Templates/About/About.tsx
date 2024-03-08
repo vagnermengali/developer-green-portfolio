@@ -38,14 +38,10 @@ const About = () => {
             className="h2 z-10">
             Meu <span className="text-accent">Percurso</span> no Desenvolvimento
           </h2>
-          <motion.p
-            variants={fadeIn("right", 0.4)}
-            initial="hidden"
-            animate="show"
-            exit="hidden"
+          <p
             className="hidden xl:flex max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 z-10">
             Ingressei na carreira de TI por interesse em jogos, comecei a modificar códigos para melhorar jogos e, gradualmente, estudei por conta própria. Trabalhei meio período na Fixtoxs como desenvolvedor front-end, evoluindo para full stack. Após um curso em tempo integral, fui monitor na Kenzie Academy e, agora, sou desenvolvedor front-end na Wicomm, além de fazer projetos freelance como full stack.
-          </motion.p>
+          </p>
           <motion.div
             variants={fadeIn("right", 0.6)}
             initial="hidden"
