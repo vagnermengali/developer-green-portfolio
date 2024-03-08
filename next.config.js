@@ -3,9 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   experimental: {
-    modern: true,
     optimizeFonts: true,
-    optimizeImages: true,
   },
   compress: true,
   async headers() {
