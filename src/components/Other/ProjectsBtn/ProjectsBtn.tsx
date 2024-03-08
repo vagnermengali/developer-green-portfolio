@@ -7,9 +7,9 @@ const ProjectsBtn = () => {
   return (
     <div className="mx-auto xl:m-0 flex justify-center items-center cursor-pointer">
       <Link
-        href={"/work"}
+        href={"/projects"}
         className="relative w-[135px] h-[135px] flex justify-center items-center bg-circle bg-cover bg-center bg-no-repeat group cursor-pointer"
-        aria-label={"work"}
+        aria-label={"projects"}
       >
         <Image
           src={"/rounded-text.webp"}
