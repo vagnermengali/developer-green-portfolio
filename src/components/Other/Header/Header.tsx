@@ -4,26 +4,8 @@ import { useEffect, useState } from "react";
 import Socials from "@/components/Other/Socials/Socials";
 
 const Header = () => {
-  const [scrolling, setScrolling] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setScrolling(true);
-      } else {
-        setScrolling(false);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
   return (
-    <header className={`fixed z-30 w-full flex items-center px-5 xl:px-0 xl:h-[90px] py-5 ease-in duration-300 ${scrolling ? 'bg-primary backdrop-blur-lg' : '' }`}>
+    <header className={`fixed z-30 w-full flex items-center px-5 xl:px-0 xl:h-[90px] py-5 ease-in duration-300 `}>
       <div className="container mx-auto p-0">
         <div className="flex flex-row justify-between items-center gap-y-6 xl:py-8">
           <Link href={"/"}>
