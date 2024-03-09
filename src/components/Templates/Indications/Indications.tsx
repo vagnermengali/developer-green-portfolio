@@ -6,7 +6,7 @@ import TestimonialSlider from "@/components/Other/TestimonialSlider/TestimonialS
 const Indications = () => {
 
   return (
-    <div className="bg-primary/30 h-[inherit] xl:pt-[6%] xl:py-32 pt-16 pb-14 xl:pb-0 xl:mt-0 text-center">
+    <div className="bg-primary/30 h-[inherit] xl:pt-[6%] xl:py-32 pt-16 pb-14 xl:pb-0 xl:mt-0 text-center max-h-dvh">
       <div className="container mx-auto h-full flex flex-col xl:justify-center">
         <h2
           className="h2 mb-6 xl:mb-0"
