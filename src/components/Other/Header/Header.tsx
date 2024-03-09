@@ -9,7 +9,7 @@ const Header = () => {
       <div className="container mx-auto p-0">
         <div className="flex flex-row justify-between items-center gap-y-6 xl:py-8">
           <Link href={"/"}>
-            <h1 className="xl:text-4xl text-base flex items-center" /* priority={true} */><b className="pr-2">Vagner</b><p className="text-accent">Mengali</p></h1>
+            <h1 className="xl:text-4xl text-base flex items-center"><b className="pr-2">Vagner</b><p className="text-accent">Mengali</p></h1>
           </Link>
           <Socials />
         </div>

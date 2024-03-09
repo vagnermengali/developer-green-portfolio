@@ -31,10 +31,10 @@ const Seo = ({ title, description }: SeoInterface) => {
             <meta property="al:android:app_name" content="Vagner Mengali" />
             <meta property="al:android:url" content="https://vagnermengali.com/" />
             <link rel="canonical" href="https://vagnermengali.com/" />
-            <meta name="theme-color" content="#08d665" />
-            <meta name="msapplication-TileColor" content="#08d665" />
-            <meta name="msapplication-navbutton-color" content="#08d665" />
-            <meta name="apple-mobile-web-app-status-bar-style" content="#08d665" />
+            <meta name="theme-color" content="#0b0d0c" />
+            <meta name="msapplication-TileColor" content="#0b0d0c" />
+            <meta name="msapplication-navbutton-color" content="#0b0d0c" />
+            <meta name="apple-mobile-web-app-status-bar-style" content="#0b0d0c" />
             <link rel="manifest" href={"/manifest.webmanifest"} />
             <meta name="robots" content="index,follow" />
             <meta name="googlebot" content="index, follow" />

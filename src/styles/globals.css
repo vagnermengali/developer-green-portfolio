@@ -60,7 +60,7 @@
 
 @layer base {
   body {
-    @apply bg-accent overflow-hidden leading-relaxed;
+    @apply bg-primary overflow-hidden leading-relaxed;
   }
   .page {
     @apply w-full h-[100dvh] overflow-hidden;
