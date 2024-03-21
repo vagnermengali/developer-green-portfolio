@@ -34,7 +34,7 @@ Este é um portfólio desenvolvido para beneficiar desenvolvedores que ainda nã
 
 ## Rotas Disponíveis
 
-- **/**: Página inicial do portfólio.
+- **/** : Página inicial do portfólio.
 - **/about**: Página sobre o autor ou informações da empresa.
 - **/contact**: Página de contato.
 - **/services**: Página com informações sobre os serviços oferecidos.
@@ -116,7 +116,7 @@ Swiper, React Hook Form, Framer Motion, React tsparticles, Yup, SweetAlert2 and 
 
 ## Available Routes
 
-- **/**: Portfolio's home page.
+- **/** : Portfolio's home page.
 - **/about**: Page about the author or company information.
 - **/contact**: Contact page.
 - **/services**: Page with information about the services offered.
