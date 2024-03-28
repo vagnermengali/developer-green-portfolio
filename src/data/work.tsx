@@ -6,8 +6,8 @@ export const workSlider = {
         {
           id: "image1",
           title: "Portfolio",
-          path: "/portfolio.webp",
-          href: "https://vagnermengali.com",
+          path: "/portfolio-purple.webp",
+          href: "https://developer-purple-portfolio-vagnermengali.vercel.app/",
         },
         {
           id: "image2",
