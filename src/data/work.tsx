@@ -13,7 +13,7 @@ export const workSlider = {
           id: "image2",
           title: "YRprey",
           path: "/yrprey.webp",
-          href: "https://yrprey-git-main-vagnermengali.vercel.app/",
+          href: "https://yrprey-vagnermengali.vercel.app/",
         },
         {
           id: "image3",
