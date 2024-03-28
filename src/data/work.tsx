@@ -5,7 +5,7 @@ export const workSlider = {
       images: [
         {
           id: "image1",
-          title: "Portfolio",
+          title: "Portfolio Open Source",
           path: "/portfolio-purple.webp",
           href: "https://developer-purple-portfolio-vagnermengali.vercel.app/",
         },
@@ -17,7 +17,7 @@ export const workSlider = {
         },
         {
           id: "image3",
-          title: "Portfolio",
+          title: "Portfolio Open Source",
           path: "/portfolio-blue.webp",
           href: "https://developer-blue-portfolio-vagnermengali.vercel.app/",
         },
@@ -34,7 +34,7 @@ export const workSlider = {
       images: [
         {
           id: "image1",
-          title: "Portfolio",
+          title: "Portfolio Open Source",
           path: "/portfolio-green.webp",
           href: "https://developer-green-portfolio-vagnermengali.vercel.app/",
         }
