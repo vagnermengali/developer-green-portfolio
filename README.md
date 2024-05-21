@@ -1,9 +1,9 @@
 <h1 align="center">
- Developer Green Portfolio
+   Developer Green Portfolio
 </h1>
 
 <div align="center">
-  <img src='https://github.com/vagnermengali/developer-blue-portfolio/blob/main/public/perfomace.webp'/>
+   <img src='https://github.com/vagnermengali/developer-blue-portfolio/blob/main/public/perfomace.webp'/>
 </div>
 
 
@@ -11,7 +11,7 @@
 
 <div align="center">
    <a href="#documentação-em-português">Leia em Português |</a>
-  <a href="#documentation-in-english">Read in English</a>
+   <a href="#documentation-in-english">Read in English</a>
 </div>
 
 ---
