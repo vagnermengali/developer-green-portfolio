@@ -36,7 +36,6 @@ const Contact = () => {
     const publicKey = process.env.NEXT_PUBLIC_PUBLIC_KEY;
 
     if (!serviceId || !templateId || !publicKey) {
-      console.log(serviceId,templateId, publicKey)
       throw new Error("Variáveis de ambiente não estão definidas corretamente.");
     }
 
@@ -44,7 +43,6 @@ const Contact = () => {
       .send(serviceId.toString(), templateId.toString(), templateParams, publicKey.toString())
       .then(
         (response) => {
-          console.log("EMAIL ENVIADO", response.status, response.text);
           reset();
           Swal.fire({
             position: "center",
@@ -61,7 +59,7 @@ const Contact = () => {
           router.push('/');
         },
         (err) => {
-          console.log("ERROR", err);
+          err
         }
       );
   };
